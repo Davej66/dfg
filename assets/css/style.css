@@ -1,0 +1,261 @@
+
+
+
+.logo {
+    max-width: 330px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.running-machine {
+    max-width:270px;
+    margin-top:80px;
+    margin-left: 65px;
+    display: inline-block;
+    
+
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*Global Behavior*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    color: #404141;
+    font-family: "Roboto", sans-serif;
+}
+
+.section-head {
+    padding: 8rem 0rem;
+    text-align: center;
+}
+
+.subhead {
+    text-align: center;
+}
+
+/*Colors*/
+
+.bg-color-main {
+    background-color: #404141;
+}
+
+.font-color-main {
+    font-family: "Roboto", sans-serif;
+    color: #e6b873;
+}
+
+.font-color-inverse {
+    font-family: "Roboto", sans-serif;
+    color: #404141;
+}
+
+/*Header*/
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Navigation*/
+
+.navbar-stick {
+    display: flex;
+    top: 0px;
+    left: 0px;
+    position: sticky;
+    z-index: 999999;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.navbar {
+    background-color: #404141;
+}
+
+.nav-item {
+    font-family: "Roboto", sans-serif;
+    background-color: #404141;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-family: "Roboto", sans-serif;
+    color: #f6c67c;
+}
+
+.navbar-dark,
+.navbar-nav:hover,
+.nav-link:hover {
+    color: #777777;
+    transition-duration: .5s;
+}
+
+/*About us*/
+
+.about-us {
+    padding: 12.5rem 12.5rem;
+}
+
+.about-us-format {
+    padding: 1rem;
+    font-size: 1.25rem;
+    align-self: center;
+    display: inline-block;
+}
+
+.about-us-card {
+    padding: 0px;
+    max-height: auto;
+    max-width: 100%;
+
+}
+
+.about-us-image {
+    padding: 0rem;
+}
+
+/*What we do*/
+
+.what-we-do {
+    background-color: #404141;
+    padding: 0rem;
+}
+
+.wwd-card {
+    padding: 0px;
+    max-height: auto;
+    max-width: 100%;
+
+}
+
+@media (min-width: 992px) {
+    .wwd-subtitle {
+        padding-top: 8rem;
+    }
+}
+
+.wwd-format {
+    font-size: 1.25rem;
+    align-self: center;
+    padding: 0rem 2rem;
+}
+
+.wwd-subtitle {
+    text-align: center;
+}
+
+/*Fire & Acoustics*/
+
+.faa-format {
+    padding: 0rem 0rem 5rem 0rem;
+}
+
+.faa-font-format {
+    font-size: 1.2rem;
+}
+
+.faa-icon {
+    border-radius: 50%;
+    border-style: solid;
+    max-width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*Finishing Touches*/
+
+.finishing-touches-format {
+    background-color: #404141;
+    padding: 5rem 1rem 5rem 1rem;
+}
+
+.card {
+    border: 0rem;
+    padding: 5rem 1rem 5rem 1rem;
+}
+
+.card-group {
+    padding-bottom: 5rem;
+}
+
+/*Icons*/
+
+.icon-format {
+    padding-top: 1rem;
+}
+
+.icon {
+    border-radius: 50%;
+    border-style: solid;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*Contact Us*/
+
+.contact-us {
+    padding: 3rem;
+}
+
+.map {
+    width: 100%;
+    height: 50%;
+}
+
+.tel-link:hover {
+    text-decoration: none;
+    color: #e6b873;
+}
+
+.btn-primary {
+    background-color: #404141;
+    border: #e6b873;
+    color: #e6b873;
+}
+
+.btn-primary:hover {
+    background-color: #e6b873;
+    border: #404141;
+    color: #404141;
+}
+
+/*Footer*/
+
+.footer {
+    padding-top: 1rem;
+}
+
+.social-links {
+    padding-top: 1.25rem;
+}
+
+.social-links li a i {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 15%;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #404141;
+    background: #f6c67c;
+}
+
+#map {
+    border: 0;
+}
