@@ -12,8 +12,9 @@
 
 .running-machine {
     max-width:270px;
-    margin-top:80px;
-    margin-left: 65px;
+    margin-top:10px;
+    margin-left: 55px;
+    margin-bottom: 80px;
     display: inline-block;
     
 
@@ -29,13 +30,21 @@ html {
 }
 
 p {
-    color: #404141;
+    color: #277676;
     font-family: "Roboto", sans-serif;
 }
 
 .section-head {
-    padding: 8rem 0rem;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+
     text-align: center;
+    margin-bottom: 0;
+    
 }
 
 .subhead {
@@ -45,7 +54,7 @@ p {
 /*Colors*/
 
 .bg-color-main {
-    background-color: #404141;
+    background-color: #277676;
 }
 
 .font-color-main {
@@ -54,8 +63,7 @@ p {
 }
 
 .font-color-inverse {
-    font-family: "Roboto", sans-serif;
-    color: #404141;
+    font-family: #277676;
 }
 
 /*Header*/
@@ -81,12 +89,12 @@ p {
 }
 
 .navbar {
-    background-color: #404141;
+    background-color: #277676;
 }
 
 .nav-item {
     font-family: "Roboto", sans-serif;
-    background-color: #404141;
+    background-color: #277676;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -100,6 +108,36 @@ p {
     color: #777777;
     transition-duration: .5s;
 }
+
+/*Classes*/
+
+.about-us {
+    padding: 12.5rem 12.5rem;
+}
+
+.classes-format {
+    padding: 1rem;
+    font-size: 1.25rem;
+    align-self: center;
+    display: inline-block;
+}
+
+.classes-card {
+    padding: 0px;
+    max-height: auto;
+    max-width: 100%;
+
+}
+
+.classes-image {
+    padding: 0rem;
+}
+
+
+
+
+
+
 
 /*About us*/
 
@@ -128,7 +166,7 @@ p {
 /*What we do*/
 
 .what-we-do {
-    background-color: #404141;
+    background-color: #277676;
     padding: 0rem;
 }
 
@@ -178,7 +216,7 @@ p {
 /*Finishing Touches*/
 
 .finishing-touches-format {
-    background-color: #404141;
+    background-color: #277676;
     padding: 5rem 1rem 5rem 1rem;
 }
 
@@ -224,15 +262,15 @@ p {
 }
 
 .btn-primary {
-    background-color: #404141;
+    background-color: #277676;
     border: #e6b873;
     color: #e6b873;
 }
 
 .btn-primary:hover {
     background-color: #e6b873;
-    border: #404141;
-    color: #404141;
+    border: #277676;
+    color: #277676;
 }
 
 /*Footer*/
@@ -252,7 +290,7 @@ p {
     font-size: 1rem;
     line-height: 2rem;
     text-align: center;
-    color: #404141;
+    color: #277676;
     background: #f6c67c;
 }
 
