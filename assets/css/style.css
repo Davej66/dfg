@@ -12,9 +12,10 @@
 
 .running-machine {
     max-width:270px;
-    margin-top:10px;
+    max-height: fit-content;
+    margin-top:20px;
     margin-left: 55px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     display: inline-block;
     
 
@@ -117,7 +118,7 @@ p {
 
 .classes-format {
     padding: 1rem;
-    font-size: 1.25rem;
+    font-size: 1.0rem;
     align-self: center;
     display: inline-block;
 }
