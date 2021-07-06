@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
 .logo {
@@ -16,13 +16,9 @@
     margin-top: 20px;
     padding-left: 00px;
     margin-bottom: 20px;
-    display: inline-block;
-    
-
-    
+    display: inline-block; 
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /*Global Behavior*/
 
@@ -41,9 +37,7 @@ p {
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 50px;
-    padding-bottom: 50px;
-    
-
+    padding-bottom: 50px; 
     text-align: center;
     margin-bottom: 0;
     
@@ -65,7 +59,7 @@ p {
 }
 
 .font-color-inverse {
-    font-family: #277676;
+    font-family: "Roboto", sans-serif;
 }
 
 /*Header*/
@@ -124,9 +118,15 @@ p {
     display: inline-block;
 }
 
+@media (min-width: 992px) {
+    .about-us-card {
+        padding-top: 8rem;
+    }
+}
+
 .classes-card {
     padding: 0px;
-    max-height: auto;
+    max-height: 100%;
     max-width: 100%;
 
 }
@@ -135,6 +135,14 @@ p {
     padding: 0rem;
 }
 
+.icon {
+    border-radius: 50%;
+    border-style: solid;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
@@ -156,7 +164,7 @@ p {
 
 .about-us-card {
     padding: 0px;
-    max-height: auto;
+    max-height: 100%;
     max-width: 100%;
 }
 
@@ -165,7 +173,9 @@ p {
     display: inline-block;
 }
 
-/*What we do*/
+
+
+/*What we do*
 
 .what-we-do {
     background-color: #277676;
@@ -195,7 +205,7 @@ p {
     text-align: center;
 }
 
-/*Fire & Acoustics*/
+/*Fire & Acoustics
 
 .faa-format {
     padding: 0rem 0rem 5rem 0rem;
@@ -215,7 +225,7 @@ p {
 }
 
 
-/*Finishing Touches*/
+/*Finishing Touches
 
 .finishing-touches-format {
     background-color: #277676;
@@ -231,7 +241,7 @@ p {
     padding-bottom: 5rem;
 }
 
-/*Icons*/
+/*Icons
 
 .icon-format {
     padding-top: 1rem;
@@ -255,7 +265,7 @@ p {
 
 .map {
     width: 100%;
-    height: 50%;
+    height:500px;
 }
 
 .tel-link:hover {
@@ -298,20 +308,21 @@ p {
 
 #map {
     border: 0;
-}------*/
+}
 
 /* ----------------------------------------Footer */
 
 footer {
-    background-color: #525252;
-    color: #fafafa;
-    min-height: 120px;
+    font-size: 75%;
+    background-color: #277676;
+    color: #e6b873;
+    min-height: 1px;
     margin: 0;
 }
 
 .cv-pdf i {
     font-size: 18px;
-    color: #fafafa;
+    color:#e6b873 ;
     text-align: center;
     padding-left: 5px;
     transition: all 0.35s ease-in-out;
@@ -321,7 +332,7 @@ footer {
 }
 
 .cv-pdf i:hover {
-    color: #e84610;
+    color: #e6b873;
 }
 
 .social-links {
@@ -345,9 +356,70 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #e84610;
+    background: #e6b873;
 }
 
 #footer-details {
-    padding: 20px;
+    padding: 10px;
 }
+
+/*Contact Us*/
+
+.contact-us {
+    padding: 3rem;
+}
+
+.map {
+    width: 100%;
+    height: 50%;
+}
+
+.tel-link:hover {
+    text-decoration: none;
+    color: #e6b873;
+}
+
+.btn-primary {
+    background-color: #277676;
+    border: #e6b873;
+    color: #e6b873;
+}
+
+.btn-primary:hover {
+    background-color: #e6b873;
+    border: #277676;
+    color: #277676;
+}
+
+
+#map {
+    border: 0;
+}
+
+/*Footer old
+
+.footer {
+    padding-top: 1rem;
+}
+
+.social-links {
+    padding-top: 1.25rem;
+}
+
+.social-links li a i {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 15%;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #277676;
+    background: #f6c67c;
+}
+
+#map {
+    border: 0;
+}
+
+
+
