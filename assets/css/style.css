@@ -11,11 +11,11 @@
 
 
 .running-machine {
-    max-width:270px;
-    max-height: fit-content;
-    margin-top:20px;
-    margin-left: 55px;
-    margin-bottom: 60px;
+    max-width: 290px;
+    max-height: 254px;
+    margin-top: 20px;
+    padding-left: 00px;
+    margin-bottom: 20px;
     display: inline-block;
     
 
@@ -31,8 +31,9 @@ html {
 }
 
 p {
-    color: #277676;
+    color: #e6b873;
     font-family: "Roboto", sans-serif;
+    
 }
 
 .section-head {
@@ -157,11 +158,11 @@ p {
     padding: 0px;
     max-height: auto;
     max-width: 100%;
-
 }
 
 .about-us-image {
     padding: 0rem;
+    display: inline-block;
 }
 
 /*What we do*/
@@ -274,7 +275,7 @@ p {
     color: #277676;
 }
 
-/*Footer*/
+/*Footer old
 
 .footer {
     padding-top: 1rem;
@@ -297,4 +298,56 @@ p {
 
 #map {
     border: 0;
+}------*/
+
+/* ----------------------------------------Footer */
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #e84610;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+#footer-details {
+    padding: 20px;
 }
