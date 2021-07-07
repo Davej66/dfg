@@ -10,15 +10,25 @@
 }
 
 
-.running-machine {
+.class-image {
     max-width: 290px;
     max-height: 254px;
     margin-top: 20px;
     padding-left: 00px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     display: inline-block; 
 }
 
+
+
+.faclilties-image {
+    max-width: 250px;
+    max-height: 254px;
+    margin-top: 20px;
+    padding-left: 00px;
+    margin-bottom: 0px;
+    display: inline-block; 
+}
 
 /*Global Behavior*/
 
@@ -50,6 +60,7 @@ p {
 /*Colors*/
 
 .bg-color-main {
+    padding-right: 10px;
     background-color: #277676;
 }
 
@@ -108,6 +119,7 @@ p {
 /*Classes*/
 
 .about-us {
+    margin-right: 0;
     padding: 12.5rem 12.5rem;
 }
 
@@ -294,3 +306,12 @@ footer {
     border: 0;
 }
 
+.subhead {
+    text-align: center;
+
+}
+
+.section-head {
+    padding: 1rem 0rem;
+    text-align: center;
+}
