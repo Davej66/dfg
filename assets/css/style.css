@@ -175,88 +175,6 @@ p {
 
 
 
-/*What we do*
-
-.what-we-do {
-    background-color: #277676;
-    padding: 0rem;
-}
-
-.wwd-card {
-    padding: 0px;
-    max-height: auto;
-    max-width: 100%;
-
-}
-
-@media (min-width: 992px) {
-    .wwd-subtitle {
-        padding-top: 8rem;
-    }
-}
-
-.wwd-format {
-    font-size: 1.25rem;
-    align-self: center;
-    padding: 0rem 2rem;
-}
-
-.wwd-subtitle {
-    text-align: center;
-}
-
-/*Fire & Acoustics
-
-.faa-format {
-    padding: 0rem 0rem 5rem 0rem;
-}
-
-.faa-font-format {
-    font-size: 1.2rem;
-}
-
-.faa-icon {
-    border-radius: 50%;
-    border-style: solid;
-    max-width: 30%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-/*Finishing Touches
-
-.finishing-touches-format {
-    background-color: #277676;
-    padding: 5rem 1rem 5rem 1rem;
-}
-
-.card {
-    border: 0rem;
-    padding: 5rem 1rem 5rem 1rem;
-}
-
-.card-group {
-    padding-bottom: 5rem;
-}
-
-/*Icons
-
-.icon-format {
-    padding-top: 1rem;
-}
-
-.icon {
-    border-radius: 50%;
-    border-style: solid;
-    max-width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
 /*Contact Us*/
 
 .contact-us {
@@ -286,30 +204,7 @@ p {
     color: #277676;
 }
 
-/*Footer old
 
-.footer {
-    padding-top: 1rem;
-}
-
-.social-links {
-    padding-top: 1.25rem;
-}
-
-.social-links li a i {
-    width: 2rem;
-    height: 2rem;
-    border-radius: 15%;
-    font-size: 1rem;
-    line-height: 2rem;
-    text-align: center;
-    color: #277676;
-    background: #f6c67c;
-}
-
-#map {
-    border: 0;
-}
 
 /* ----------------------------------------Footer */
 
@@ -333,7 +228,7 @@ footer {
 }
 
 .cv-pdf i:hover {
-    color: #e6b873;
+    color: #8f5909;
 }
 
 .social-links {
@@ -399,30 +294,3 @@ footer {
     border: 0;
 }
 
-/*Footer old
-
-.footer {
-    padding-top: 1rem;
-}
-
-.social-links {
-    padding-top: 1.25rem;
-}
-
-.social-links li a i {
-    width: 2rem;
-    height: 2rem;
-    border-radius: 15%;
-    font-size: 1rem;
-    line-height: 2rem;
-    text-align: center;
-    color: #277676;
-    background: #f6c67c;
-}
-
-#map {
-    border: 0;
-}
-
-
----*/
