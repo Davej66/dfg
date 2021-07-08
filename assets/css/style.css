@@ -10,27 +10,9 @@
 }
 
 
-.class-image {
-    max-width: 290px;
-    max-height: 254px;
-    margin-top: 20px;
-    padding-left: 00px;
-    margin-bottom: 0px;
-    display: inline-block; 
-}
 
 
-
-.faclilties-image {
-    max-width: 250px;
-    max-height: 254px;
-    margin-top: 20px;
-    padding-left: 00px;
-    margin-bottom: 0px;
-    display: inline-block; 
-}
-
-/*Global Behavior*/
+/*Global Behavior---&- Colours*/
 
 html {
     scroll-behavior: smooth;
@@ -47,9 +29,10 @@ p {
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 20px;
-    padding-bottom: 20px; 
+    padding-bottom: 40px; 
     text-align: center;
     margin-bottom: 0;
+    padding: 1rem 0rem;
     
 }
 
@@ -57,7 +40,7 @@ p {
     text-align: center;
 }
 
-/*Colors*/
+
 
 .bg-color-main {
     padding-right: 10px;
@@ -69,17 +52,18 @@ p {
     color: #e6b873;
 }
 
-.font-color-inverse {
-    font-family: "Roboto", sans-serif;
+
+
+
+
+.section-head {
+    padding: 1rem 0rem;
 }
 
-/*Header*/
 
-.logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+
+
+
 
 /*Navigation*/
 
@@ -116,12 +100,73 @@ p {
     transition-duration: .5s;
 }
 
-/*Classes*/
+
+
+
+
+
+/* ------ about-Us---*/
+
+
+
+.about-us {
+    padding: 12.5rem 12.5rem;
+}
+
+.about-us-format {
+    padding: 1rem;
+    font-size: 1.25rem;
+    align-self: center;
+    display: inline-block;
+}
+
 
 .about-us {
     margin-right: 0;
     padding: 12.5rem 12.5rem;
 }
+
+
+
+.about-us-image {
+    padding: 0rem;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+/* ------ Gallery---*/
+
+
+
+
+
+
+@media (min-width: 992px) {
+    .gallery-style {
+        padding-top: 8rem;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+
+
+.gallery-style {
+    padding: 0px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+
+
+/* ------ Classes---*/
+
 
 .classes-format {
     padding: 1rem;
@@ -130,22 +175,16 @@ p {
     display: inline-block;
 }
 
-@media (min-width: 992px) {
-    .about-us-card {
-        padding-top: 8rem;
-    }
+.class-image {
+    max-width: 290px;
+    max-height: 254px;
+    margin-top: 20px;
+    padding-left: 00px;
+    margin-bottom: 20px;
+    display: inline-block; 
 }
 
-.classes-card {
-    padding: 0px;
-    max-height: 100%;
-    max-width: 100%;
 
-}
-
-.classes-image {
-    padding: 0rem;
-}
 
 .icon {
     border-radius: 50%;
@@ -159,30 +198,15 @@ p {
 
 
 
+/* ------ Facilities---*/
 
-
-/*About us*/
-
-.about-us {
-    padding: 12.5rem 12.5rem;
-}
-
-.about-us-format {
-    padding: 1rem;
-    font-size: 1.25rem;
-    align-self: center;
-    display: inline-block;
-}
-
-.about-us-card {
-    padding: 0px;
-    max-height: 100%;
-    max-width: 100%;
-}
-
-.about-us-image {
-    padding: 0rem;
-    display: inline-block;
+.faclilties-image {
+    max-width: 230px;
+    max-height: 254px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 00px;
+    display: inline-block; 
 }
 
 
@@ -194,9 +218,9 @@ p {
 }
 
 .map {
-    margin-bottom: 100px;
-    width: 75%;
-    height:400px;
+    width: 100%;
+    height: 50%;
+margin-bottom: 100px;
 }
 
 .tel-link:hover {
@@ -205,6 +229,8 @@ p {
 }
 
 .btn-primary {
+    margin-bottom: 25px;
+    margin-top: 25px;
     background-color: #277676;
     border: #e6b873;
     color: #e6b873;
@@ -217,6 +243,10 @@ p {
 }
 
 
+
+#map {
+    border: 0;
+}
 
 /* ----------------------------------------Footer */
 
@@ -271,47 +301,3 @@ footer {
     padding: 10px;
 }
 
-/*Contact Us*/
-
-.contact-us {
-    padding: 3rem;
-}
-
-.map {
-    width: 100%;
-    height: 50%;
-}
-
-.tel-link:hover {
-    text-decoration: none;
-    color: #e6b873;
-}
-
-.btn-primary {
-    margin-bottom: 25px;
-    margin-top: 25px;
-    background-color: #277676;
-    border: #e6b873;
-    color: #e6b873;
-}
-
-.btn-primary:hover {
-    background-color: #e6b873;
-    border: #277676;
-    color: #277676;
-}
-
-
-#map {
-    border: 0;
-}
-
-.subhead {
-    text-align: center;
-
-}
-
-.section-head {
-    padding: 1rem 0rem;
-    text-align: center;
-}
