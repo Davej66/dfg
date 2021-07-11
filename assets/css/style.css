@@ -157,7 +157,7 @@ p {
 
 
 .gallery-style {
-    padding: 0px;
+    padding: 0;
     max-height: 100%;
     max-width: 100%;
 }
@@ -187,9 +187,9 @@ p {
 
 
 .icon {
-    border-radius: 50%;
+    border-radius: 400px;
     border-style: solid;
-    max-width: 100%;
+    
     display: block;
     margin-left: auto;
     margin-right: auto;
