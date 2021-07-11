@@ -142,6 +142,47 @@ p {
 /* ------ Gallery---*/
 
 
+.callout-container {
+    height: 50vh;
+
+    background: url("../images/gallery/g-background.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -157,7 +198,7 @@ p {
 
 
 .gallery-style {
-    padding: 0;
+    padding: 0rem;
     max-height: 100%;
     max-width: 100%;
 }
@@ -242,6 +283,15 @@ margin-bottom: 100px;
     color: #277676;
 }
 
+a {
+    color: #ec9209; 
+}
+
+.btn-primary:hover a {
+    background-color: #ec9209;
+    border: #277676;
+    color: #277676;
+}
 
 
 #map {
@@ -301,3 +351,27 @@ footer {
     padding: 10px;
 }
 
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: #ec9209;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color:#ec9209;
+}
+
+.jumbotron .lead {
+    color: #ec9209;
+    margin: 25px 0;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color:#ec9209;
+}
