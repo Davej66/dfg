@@ -213,20 +213,25 @@ p {
 .classes-format {
     padding: 1rem;
     font-size: 1rem;
-    align-self: center;
-    display: inline-block;
+    /*align-self: center;*/
+    /*display: inline-block;*/
 }
 
 .class-image {
-    /*max-width: 290px;*/
+    display: inline-block;
+    vertical-align: middle;
+    /*max-widh: 290px;*/
     max-width: 90%;
     /*max-height: 254px;*/
     max-height: 15rem;
     margin-top: 2rem;
-
+    height: 100%;
+    align-items: center;
+    justify-content: center;
     padding-left: 00px;
-    margin-bottom: 2rem;
-    display: inline-block; 
+    margin-bottom: 1rem;
+    
+    
 }
 
 
