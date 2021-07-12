@@ -19,6 +19,7 @@ html {
 }
 
 p {
+    font-size: 20px;
     color: #ec9209;
     font-family: "Roboto", sans-serif;
     
@@ -90,7 +91,7 @@ p {
 
 .navbar-dark .navbar-nav .nav-link {
     font-family: "Roboto", sans-serif;
-    color: #f6c67c;
+    color: #ec9209;
 }
 
 .navbar-dark,
@@ -115,7 +116,7 @@ p {
 
 .about-us-format {
     padding: 1rem;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     align-self: center;
     display: inline-block;
 }
@@ -211,7 +212,7 @@ p {
 
 .classes-format {
     padding: 1rem;
-    font-size: 1.0rem;
+    font-size: 1rem;
     align-self: center;
     display: inline-block;
 }
@@ -314,7 +315,7 @@ footer {
 }
 
 .cv-pdf i {
-    font-size: 18px;
+    font-size: 1rem;
     color:#ec9209 ;
     text-align: center;
     padding-left: 0.5rem;
@@ -376,7 +377,7 @@ footer {
 }
 
 .jumbotron small {
-    font-size: 60%;
+    font-size: 75%;
     font-style: italic;
     color:#ec9209;
 }
