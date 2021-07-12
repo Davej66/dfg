@@ -5,11 +5,30 @@
 
 The client is launching a fitness gym and wanted to showcase the facilitives and classes avialable. To attract members from the local community and have their curiosity nudged.  
 
-
+usin
 
 
 
 ## UX
+
+As a new business and all members will be new and likely to be from the local area. A website with the following features to atract them.
+
+1. A website with appealing visual content.
+2. An accessible website on a desktop, tablet and mobile.
+3. Displaying the classes and equipment avaialble at the gym.
+4. Clear and eailsy found contact details.
+5. Contact form availabe to conact the gym for additional information.
+
+
+
+
+## Site Owners Goals
+
+* Promote a fitness gym in the local area.
+* Create interest and new membership.
+* Stand out from the competition
+
+
 ## Wireframes
 ## Features
 
