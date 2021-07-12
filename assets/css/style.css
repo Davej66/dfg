@@ -274,13 +274,13 @@ p {
 /*Contact Us*/
 
 .contact-us {
-    padding: 3rem;
+    padding: 1rem;
 }
 
 .map {
     width: 100%;
-    height: 50%;
-margin-bottom: 6rem;
+    height: 30%;
+margin-bottom: 1rem;
 }
 
 .tel-link:hover {
@@ -317,6 +317,17 @@ a {
     border: 0;
 }
 
+.t-hours h4{
+    color: #ec9209;
+
+}
+.t-hours p {
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.25rem;
+    line-height: 1rem;
+}
 /* ----------------------------------------Footer */
 
 footer {
