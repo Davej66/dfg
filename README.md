@@ -1,4 +1,14 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Dowlais Fitness Gym
+
+![image](https://user-images.githubusercontent.com/85559896/125291579-79146780-e319-11eb-9692-ba00296b138b.png)
+
+
+
+
+
+
+
+
 
 Welcome Davej66+,
 
