@@ -147,6 +147,10 @@ p {
     height: 75vh;
 
     background: url("../images/gallery/g-background.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -157,6 +161,8 @@ p {
     justify-content: center;
 
     position: relative;
+
+
 }
 
 .opaque-overlay {
@@ -218,8 +224,8 @@ p {
 }
 
 .class-image {
-    display: inline-block;
-    vertical-align: middle;
+    /*display: inline-block;*/
+   /* vertical-align: middle;*/
     /*max-widh: 290px;*/
     max-width: 90%;
     /*max-height: 254px;*/
