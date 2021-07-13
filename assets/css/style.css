@@ -20,7 +20,7 @@ html {
 
 p {
     font-size: 20px;
-    color: #ec9209;
+    color: #FAC16B;
     font-family: "Roboto", sans-serif;
     
 }
@@ -45,12 +45,12 @@ p {
 
 .bg-color-main {
     padding-right: 10px;
-    background-color: #277676;
+    background-color: #0B2222;
 }
 
 .font-color-main {
     font-family: "Roboto", sans-serif;
-    color: #ec9209;
+    color: FAC16B;
 }
 
 
@@ -81,17 +81,17 @@ p {
 }
 
 .navbar {
-    background-color: #277676;
+    background-color: #0B2222;
 }
 
 .nav-item {
     font-family: "Roboto", sans-serif;
-    background-color: #277676;
+    background-color: #0B2222;
 }
 
 .navbar-dark .navbar-nav .nav-link {
     font-family: "Roboto", sans-serif;
-    color: #ec9209;
+    color: #FAC16B;
 }
 
 .navbar-dark,
@@ -285,31 +285,31 @@ margin-bottom: 1rem;
 
 .tel-link:hover {
     text-decoration: none;
-    color: #ec9209;
+    color: #FAC16B;
 }
 
 .btn-primary {
     margin-bottom: 2.5rem;
     margin-top: 2.5rem;
-    background-color: #277676;
-    border: #ec9209;
-    color: #ec9209;
+    background-color: #0B2222;
+    border: #FAC16B;
+    color: #FAC16B;
 }
 
 .btn-primary:hover {
-    background-color: #ec9209;
-    border: #277676;
-    color: #277676;
+    background-color: #FAC16B;
+    border: #0B2222;
+    color: #0B2222;
 }
 
 a {
-    color: #ec9209; 
+    color: #FAC16B; 
 }
 
 .btn-primary:hover a {
-    background-color: #ec9209;
-    border: #277676;
-    color: #277676;
+    background-color: #FAC16B;
+    border: #0B2222;
+    color: #0B2222;
 }
 
 
@@ -318,7 +318,7 @@ a {
 }
 
 .t-hours h4{
-    color: #ec9209;
+    color: #FAC16B;
 
 }
 .t-hours p {
@@ -332,15 +332,15 @@ a {
 
 footer {
     font-size: 75%;
-    background-color: #277676;
-    color: #ec9209;
+    background-color: #0B2222;
+    color: #FAC16B;
     min-height: .01rem;
     margin: 0;
 }
 
 .cv-pdf i {
     font-size: 1rem;
-    color:#ec9209 ;
+    color:#FAC16B ;
     text-align: center;
     padding-left: 0.5rem;
     transition: all 0.35s ease-in-out;
@@ -374,7 +374,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #ec9209;
+    background: #FAC16B;
 }
 
 #footer-details {
@@ -389,19 +389,19 @@ footer {
 }
 
 .jumbotron h1 {
-    color: #ec9209;
+    color: #FAC16B;
     font-weight: bold;
     margin-bottom: 2.5rem;
     color:#ec9209;
 }
 
 .jumbotron .lead {
-    color: #ec9209;
+    color: #FAC16B;
     margin: 2rem 0;
 }
 
 .jumbotron small {
     font-size: 75%;
     font-style: italic;
-    color:#ec9209;
+    color:#FAC16B;
 }
