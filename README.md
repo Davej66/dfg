@@ -26,24 +26,15 @@ As a new business and all members will be new and likely to be from the local ar
 
 ## User Stories
   * As a user, I want to know the locatio and opening times of the gym.
-  * As a user, I want to finformation about classes and equipment.
-  * As a user, I want
-  * As a user, I want
-  * As a user, I want
-  * As a user, I want
-  * As a user, I want
-  * As a user, I want
-  * As a user, I want
-  * As a user, I want
-  * As a user, I want
-  * As a user, I want
-  * As a user, I want
-  * As a user, I want
-  * As a user, I want
-  * As a user, I want
-  * As a user, I want
-  * As a user, I want
-
+  * As a user, I want to find information about classes and equipment.
+  * As a user, I want to able to contact the gym.
+  * As a user, I want to see images from the gym of classes and the facilities.
+  * As a user, I want to be find a website that is easy to navigate.
+  * As a user, I want the website to be intuitive as this will leave me with positive attude towards         learning more.
+  * As a user, I want to feel that i will get a swift reponse from the contact form inquiry submission.
+  * As a user, I want the social media links to open in a new browser.
+  * As a user, I want the classes timetable pdf to open in a new browser.
+  * As a user, I want to feel this is the gym I want to be a part of.
 
 
 ## Site Owners Goals
@@ -92,11 +83,21 @@ For my website I chose to use [Bootstrap](https://getbootstrap.com/). Bootstrap 
 
 ## Features
 ### Existing Features
+
+
 ### Features to be implemented
+ * A member's login that allows direct booking of classes or personal trainer sessions.
+ * Data submitted by the contact form is correctly actioned.
+ * Monthly timetable that can be scrooled through.
+ * All customer information is dealt with in accordance of GDPR regulations.
 
 
 ## Technologies Used
 ### Languages
+ * [HTML]()https://en.wikipedia.org/wiki/HTML
+ * [CSS]()https://en.wikipedia.org/wiki/CSS
+ * [JavaScript]()https://en.wikipedia.org/wiki/JavaScript
+ 
 ### Tools and Libraries
 
 
