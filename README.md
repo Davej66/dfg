@@ -5,7 +5,7 @@
 
 The client is launching a fitness gym and wanted to showcase the facilitives and classes avialable. To attract members from the local community and have their curiosity nudged.  
 
-usin
+
 
 
 
@@ -20,7 +20,9 @@ As a new business and all members will be new and likely to be from the local ar
 5. Contact form availabe to conact the gym for additional information.
 
 
+## User Goals
 
+## User Stories
 
 ## Site Owners Goals
 
@@ -29,14 +31,38 @@ As a new business and all members will be new and likely to be from the local ar
 * Stand out from the competition
 
 
+
+
+## User Requirements and Expectations
+### Requirements
+### Expectations
+
+## Design Choices
+### Fonts
+### Icons
+### Colours
+### Structure
+
+
+
 ## Wireframes
+
+![image](https://user-images.githubusercontent.com/85559896/125463096-d781acef-0439-4919-97fd-78c4641262a5.png)
+
+
+
+
 ## Features
+### Existing Features
+### Features to be implemented
 
 
+## Technologies Used
+### Languages
+### Tools and Libraries
 
 
-## Future Developments
-
+## Testing
 
 
 ## Deployment
@@ -59,8 +85,16 @@ I have used the following 3 websites to gather inspiration for content.
 - https://www.daves-gym.co.uk/
 - https://pxhere.com/
 
-I used pxhere to obtain commercially free to use images for the site.
+I used pxhere to obtain commercially free to use images for this site.
+The code for the "Jumbotron" was taken from the codeinsitute as was much of the remaining coding used in this project.
 
+
+## Acknowledgements
+
+
+Thanking my mentor [Richard Welles](https://github.com/D0nni387/) for his guidance and support. His suggestions during the mid-review led to improvements to website.
+
+Support from the slack community when seeking assistance.
 
 
 
