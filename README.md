@@ -84,6 +84,30 @@ For my website I chose to use [Bootstrap](https://getbootstrap.com/). Bootstrap 
 ## Features
 ### Existing Features
 
+#### About Us
+
+
+
+#### Gallery
+
+
+
+
+#### Classes
+
+
+
+#### Schedule
+
+
+
+#### Facilities
+
+
+
+#### Contact Us
+
+
 
 ### Features to be implemented
  * A member's login that allows direct booking of classes or personal trainer sessions.
@@ -98,10 +122,51 @@ For my website I chose to use [Bootstrap](https://getbootstrap.com/). Bootstrap 
  * [CSS](https://en.wikipedia.org/wiki/CSS)
  * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
  
-### Tools and Libraries
+ ### Libraries
+ 
+ * Bootstrap
+ * Google fonts
+ * Font aawesome
+  
+ ### Tools
+ * Git
+ * GitPod
+ * Balsamic
+ * W3C HTML Validation
+ * W3C CSS Validation
+ * TinyPNG
+ * coolors.co
+ * Chrome Dev Tools (incl Lighthouse)
 
 
 ## Testing
+
+During testing I extensively used Chrome Developer Tools, ensuring the website acted correctly with various screen sizes.
+I also used the following to fine tune the process;
+ * W3C Markup validator tool for HTML.
+ * W3C CSS validator tool for CSS
+ * Lightouse (chrome developer tools) for security and load times.
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Deployment
