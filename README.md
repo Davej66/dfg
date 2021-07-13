@@ -94,9 +94,9 @@ For my website I chose to use [Bootstrap](https://getbootstrap.com/). Bootstrap 
 
 ## Technologies Used
 ### Languages
- * [HTML]()https://en.wikipedia.org/wiki/HTML
- * [CSS]()https://en.wikipedia.org/wiki/CSS
- * [JavaScript]()https://en.wikipedia.org/wiki/JavaScript
+ * [HTML](https://en.wikipedia.org/wiki/HTML)
+ * [CSS](https://en.wikipedia.org/wiki/CSS)
+ * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
  
 ### Tools and Libraries
 
