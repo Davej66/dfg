@@ -39,10 +39,15 @@ As a new business and all members will be new and likely to be from the local ar
 
 ## Design Choices
 ### Fonts
+I have used the"Roboto" font from [Google Fonts](https://fonts.google.com/) and liked the way it presents although I did explore the website for other fonts and have noted other styles for future projects.
+
 ### Icons
+The use of icons has been kept the minimum and from the [Fontawesome](https://fontawesome.com/) library and use them for social media and a download option.
+
+
 ### Colours
 The color scheme used for the website was a green background with golden lettering. I chose these colours because i wanted the user to feel an air of quality and exclusivity, from previous subconcious experience. This colour scheme is similiar to that used by Rolex and Wimbledon tennis tournamemt (this was underway during the design process). I hoped the clientele for the gym would be fimiliar with these and connect those enternties of quality would also be associated with the gym.
-The background as #277676 and the text was EC9209
+The background was #277676 and the text was EC9209 but after runner a colour contrast test on the [Coolors](https://coolors.co/) website it scored badly and with a subtle change from green background a better scored was achieved without losing the "quality" look of the website.
 
 
 ### Structure
@@ -99,7 +104,6 @@ The code for the "Jumbotron" was taken from the codeinsitute as was much of the 
 Thanking my mentor [Richard Welles](https://github.com/D0nni387/) for his guidance and support. His suggestions during the mid-review led to improvements to website.
 
 Support from the slack community when seeking assistance.
-
 
 
 
