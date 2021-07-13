@@ -1,6 +1,6 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,900;&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*/
 .logo {
     max-width:19rem;
     display: block;
@@ -58,7 +58,7 @@ p {
 
 
 .section-head {
-    padding: 1rem 0rem;
+    padding: rem 0rem;
 }
 
 
@@ -142,6 +142,10 @@ p {
 
 /* ------ Gallery---*/
 
+.gallery-sett {
+    margin-bottom: 0;
+}
+
 
 .callout-container {
     height: 75vh;
@@ -178,7 +182,7 @@ p {
 
 .content-container {
     padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 1rem;
 }
 
 
@@ -201,6 +205,7 @@ p {
         padding-top: 8rem;
         padding-left: 0;
         padding-right: 0;
+        margin-bottom: 0;
     }
 }
 
