@@ -41,8 +41,12 @@ As a new business and all members will be new and likely to be from the local ar
 ### Fonts
 ### Icons
 ### Colours
-### Structure
+The color scheme used for the website was a green background with golden lettering. I chose these colours because i wanted the user to feel an air of quality and exclusivity, from previous subconcious experience. This colour scheme is similiar to that used by Rolex and Wimbledon tennis tournamemt (this was underway during the design process). I hoped the clientele for the gym would be fimiliar with these and connect those enternties of quality would also be associated with the gym.
+The background as #277676 and the text was EC9209
 
+
+### Structure
+For my website I chose to use [Bootstrap](https://getbootstrap.com/). Bootstrap is a library of HTML, CSS & Javascrpit, focused on mobile first. As this is the primary format for the website to be diplayed it improves that this website will work well on mobile.
 
 
 ## Wireframes
