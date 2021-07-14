@@ -94,7 +94,6 @@ p {
     padding: 1rem;
     font-size: 1.5rem;
     align-self: center;
-    display: inline-block;
 }
 
 .about-us {
@@ -102,12 +101,11 @@ p {
     padding: 12.5rem 12.5rem;
 }
 
-.about-us-image {
-    padding: 0rem;
-    display: inline-block;
-}
-
 /* ------ Gallery---*/
+
+.galley-image {
+    padding: 0rem;
+}
 
 .gallery-sett {
     margin-bottom: 0;
@@ -195,7 +193,6 @@ p {
     margin-top: 1rem;
     margin-bottom: 1rem;
     padding-right: 1rem;
-    display: inline-block; 
 }
 
 /*Contact Us*/
