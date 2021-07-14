@@ -14,7 +14,7 @@ html {
 }
 
 p {
-    font-size: 20px;
+    font-size: 1rem;
     color: #FAC16B;
     font-family: "Roboto", sans-serif;
     
@@ -28,11 +28,12 @@ p {
     padding-bottom: 40px; 
     text-align: center;
     margin-bottom: 0;
+    /*margin-top: 10rem;*/
     padding: 1rem 0rem;
 }
 
 .subhead {
-    text-align: center;
+        text-align: center;
 }
 
 .bg-color-main {
@@ -40,13 +41,19 @@ p {
     background-color: #0B2222;
 }
 
-.font-color-main {
+.font-color-main-l {
+    font-family: "Roboto", sans-serif;
+    color:#0B2222;
+}
+
+.font-color-main-d {
     font-family: "Roboto", sans-serif;
     color: #FAC16B;
 }
 
+
 .section-head {
-    padding: 0rem;
+    padding-top: 1rem;
 }
 
 /*Navigation*/
@@ -313,11 +320,11 @@ footer {
     background-color: transparent;
 }
 
-.jumbotron h1 {
+.jumbotron h2 {
     color: #FAC16B;
     font-weight: bold;
     margin-bottom: 2.5rem;
-    color:#ec9209;
+    /*color:#ec9209;*/
 }
 
 .jumbotron .lead {
