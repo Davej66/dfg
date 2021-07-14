@@ -5,11 +5,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
 }
-
-
-
 
 /*Global Behavior---&- Colours*/
 
@@ -33,14 +29,11 @@ p {
     text-align: center;
     margin-bottom: 0;
     padding: 1rem 0rem;
-    
 }
 
 .subhead {
     text-align: center;
 }
-
-
 
 .bg-color-main {
     padding-right: 10px;
@@ -52,18 +45,9 @@ p {
     color: #FAC16B;
 }
 
-
-
-
-
 .section-head {
     padding: rem 0rem;
 }
-
-
-
-
-
 
 /*Navigation*/
 
@@ -100,14 +84,7 @@ p {
     transition-duration: .5s;
 }
 
-
-
-
-
-
 /* ------ about-Us---*/
-
-
 
 .about-us {
     padding: 12.5rem 12.5rem;
@@ -120,31 +97,21 @@ p {
     display: inline-block;
 }
 
-
 .about-us {
     margin-right: 0;
     padding: 12.5rem 12.5rem;
 }
-
-
 
 .about-us-image {
     padding: 0rem;
     display: inline-block;
 }
 
-
-
-
-
-
-
 /* ------ Gallery---*/
 
 .gallery-sett {
     margin-bottom: 0;
 }
-
 
 .callout-container {
     height: 75vh;
@@ -158,16 +125,11 @@ p {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-position: center;
-    
-    
+    background-position: center; 
     display : flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
-
-
 }
 
 .opaque-overlay {
@@ -184,21 +146,6 @@ p {
     padding-bottom: 1rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width: 992px) {
     .gallery-style {
         padding-top: 8rem;
@@ -208,19 +155,13 @@ p {
     }
 }
 
-
-
 .gallery-style {
     padding: 0rem;
     max-height: 100%;
     max-width: 100%;
 }
 
-
-
-
 /* ------ Classes---*/
-
 
 .classes-format {
     padding: 1rem;
@@ -242,11 +183,7 @@ p {
     justify-content: center;
     padding-left: 00px;
     margin-bottom: 1rem;
-    
-    
 }
-
-
 
 .icon {
     border-radius: 400px;
@@ -257,23 +194,16 @@ p {
     margin-right: auto;
 }
 
-
-
-
 /* ------ Facilities---*/
 
 .faclilties-image {
     max-width: 14rem;
-    
     max-height: 100%;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    /*padding-left: 00px;*/
     padding-right: 1rem;
     display: inline-block; 
 }
-
-
 
 /*Contact Us*/
 
@@ -316,7 +246,6 @@ a {
     color: #0B2222;
 }
 
-
 #map {
     border: 0;
 }
@@ -342,7 +271,7 @@ footer {
     margin: 0;
 }
 
-.cv-pdf i {
+.tt-pdf i {
     font-size: 1rem;
     color:#FAC16B ;
     text-align: center;
@@ -384,7 +313,6 @@ footer {
 #footer-details {
     padding: 10px;
 }
-
 
 /* Jumbotron */
 
