@@ -166,16 +166,10 @@ p {
 .classes-format {
     padding: 1rem;
     font-size: 1rem;
-    /*align-self: center;*/
-    /*display: inline-block;*/
 }
 
 .class-image {
-    /*display: inline-block;*/
-   /* vertical-align: middle;*/
-    /*max-widh: 290px;*/
     max-width: 90%;
-    /*max-height: 254px;*/
     max-height: 15rem;
     margin-top: 2rem;
     height: 100%;
@@ -188,7 +182,6 @@ p {
 .icon {
     border-radius: 400px;
     border-style: solid;
-    
     display: block;
     margin-left: auto;
     margin-right: auto;
