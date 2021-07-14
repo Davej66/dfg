@@ -85,11 +85,10 @@ For my website I chose to use [Bootstrap](https://getbootstrap.com/). Bootstrap 
 ### Existing Features
 
 #### About Us
-
-
+ In bootstrap a single column has been created and a brief statement about the gym.
 
 #### Gallery
-
+A header and sub-header have been added to display some text, in this section bootstrap generates two columns with two rows with a total of 4 images displayed within these. 
 
 
 
@@ -147,6 +146,8 @@ I also used the following to fine tune the process;
  * W3C CSS validator tool for CSS
  * Lightouse (chrome developer tools) for security and load times.
 
+Button for member's Login, this feature is to follow at a later date. AS a temorary solution when the button is pressed the user is relocated to the website contact page.
+Unfortunately this solution as it is correctly coded raises an error in the W3C markup validator. I will look into the adding a modal to the button advising the feature is currently unvailable. This will resolve the issue with he W3C markup validator report. This also applies to the book classes button feature. This solution will be added to the website by the close of play on the 15th July 2021.
 
 
  
@@ -182,10 +183,11 @@ The project after the completed code was commited and pushed to GitHub could be 
 
 ## Credits
 
-I have used the following 3 websites to gather inspiration for content.
+I have used the following 4 websites to gather inspiration for content.
 
 - https://www.villagegym.co.uk/
 - https://www.aspirefitness.co.uk/classes
+- https://atlanticsuiteshealthclub.gi/
 - https://www.daves-gym.co.uk/
 - https://pxhere.com/
 
