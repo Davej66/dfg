@@ -2,7 +2,6 @@
 
 ![image](https://user-images.githubusercontent.com/85559896/125291579-79146780-e319-11eb-9692-ba00296b138b.png)
 ## Objectives of the project
-
 The client is launching a fitness gym and wanted to showcase the facilitives and classes avialable. To attract members from the local community and have their curiosity nudged.  
 
 
@@ -88,24 +87,19 @@ For my website I chose to use [Bootstrap](https://getbootstrap.com/). Bootstrap 
  In bootstrap a single column has been created and a brief statement about the gym.
 
 #### Gallery
-A header and sub-header have been added to display some text, in this section bootstrap generates two columns with two rows with a total of 4 images displayed within these. 
-
-
+A header and sub-header have been added to display some text, in this section bootstrap generates two each sized columns with two rows with a total of 4 images displayed within these. 
 
 #### Classes
-
-
+ A header is above three equal sized columns with three rows. In column 1 is the text describing classes held at the gym with a sub-header. In columns 2 and three are images reflective of the text beside them.
 
 #### Schedule
-
-
+A header is above three columns and a single row. The first column (col-md-6) and the further two columns Col-md-3), The first column has the doenload link with the two other columns have the buttons for booking classes and member login. These features are to be implemented at a later point.  Currently the buttons when actioned will take the user to the contact us page until these features have been created.
 
 #### Facilities
-
-
+A header is above two columns, in column one (col-md-8) and the column two Col-md-4). In column is the text detailing the gyms eqipment anf facilities, with images suporting this text in column 2.
 
 #### Contact Us
-
+A header is above two columns and a single row. In column one is the address of the gym with a google map of its location below this. Below the map are the opening times of the gym. In column two the gym's telephone is again shown to allow the user ann opportunity to note the number or to conatct the gym using the contact forms provided.
 
 
 ### Features to be implemented
@@ -113,6 +107,7 @@ A header and sub-header have been added to display some text, in this section bo
  * Data submitted by the contact form is correctly actioned.
  * Monthly timetable that can be scrooled through.
  * All customer information is dealt with in accordance of GDPR regulations.
+ * Booking classes via online booking.
 
 
 ## Technologies Used
@@ -136,6 +131,7 @@ A header and sub-header have been added to display some text, in this section bo
  * TinyPNG
  * coolors.co
  * Chrome Dev Tools (incl Lighthouse)
+ * Unicorn Revealer (extension on Chrome Development Tools)
 
 
 ## Testing
@@ -149,6 +145,11 @@ I also used the following to fine tune the process;
 Button for member's Login, this feature is to follow at a later date. AS a temorary solution when the button is pressed the user is relocated to the website contact page.
 Unfortunately this solution as it is correctly coded raises an error in the W3C markup validator. I will look into the adding a modal to the button advising the feature is currently unvailable. This will resolve the issue with he W3C markup validator report. This also applies to the book classes button feature. This solution will be added to the website by the close of play on the 15th July 2021.
 
+As discussed in ## Design Choices above whilst using coolors to find a better colour contrast the new choice of coloyrs but after changing the colour in the logo but reverted to the previous scheme because I felt it gave a bodlder aesthetic style to the website.
+
+Whilst using Chrome's Lighthouse there was a slight overflow issue using the extension Unicorn Revealer showed all was in order.
+
+The download in the Schedule section 
 
  
 
