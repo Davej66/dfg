@@ -43,6 +43,11 @@ p {
 .font-color-main-l {
     font-family: "Roboto", sans-serif;
     color:#0B2222;
+    background-color: #fbfbfb;
+}
+
+.backing-light {
+    background-color: #fbfbfb;
 }
 
 .font-color-main-d {
