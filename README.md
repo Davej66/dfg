@@ -122,20 +122,20 @@ A header is above two columns and a single row. In column one is the address of 
  
  ### Libraries
  
- * Bootstrap
- * Google fonts
- * Font awesome
+ * [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+ * [Google fonts](https://fonts.google.com/)
+ * [Fontawesome](https://fontawesome.com/)
   
  ### Tools
- * Git
- * GitPod
- * Balsamic
- * W3C HTML Validation
- * W3C CSS Validation
- * TinyPNG
- * coolors.co
- * Chrome Dev Tools (incl Lighthouse)
- * Unicorn Revealer (extension on Chrome Development Tools)
+ * [GitHub](https://github.com/)
+ * [GitPod](https://gitpod.io/)
+ * [Balsamic](https://gitpod.io/)
+ * [W3C HTML Validation](https://validator.w3.org/)
+ * [W3C CSS Validation](https://jigsaw.w3.org/css-validator/#validate_by_input)
+ * [TinyPNG](https://tinypng.com/)
+ * [Coolors](https://coolors.co/)
+ * [Chrome Dev Tools (incl Lighthouse)](https://developer.chrome.com/docs/devtools/)
+ * [Unicorn Revealer (extension on Chrome Development Tools)](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB)
 
 
 ## Testing
