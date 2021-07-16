@@ -106,7 +106,7 @@ A header and sub-header have been added to display some text, in this section bo
 A header is above three columns and a single row. The first column (col-md-6) and the further two columns Col-md-3), The first column has the doenload link with the two other columns have the buttons for booking classes and member login. These features are to be implemented at a later point.  Currently the buttons when actioned will take the user to the contact us page until these features have been created.
 
 #### Facilities
-A header is above two columns, in column one (col-md-8) and the column two Col-md-4). In column is the text detailing the gyms eqipment anf facilities, with images suporting this text in column 2.
+A header is above two columns, in column one (col-md-8) and the column two Col-md-4). In column is the text detailing the gyms eqipment and facilities, with images supporting this text in column 2.
 
 #### Contact Us
 A header is above two columns and a single row. In column one is the address of the gym with a google map of its location below this. Below the map are the opening times of the gym. In column two the gym's telephone is again shown to allow the user ann opportunity to note the number or to conatct the gym using the contact forms provided.
@@ -157,9 +157,9 @@ Unfortunately this solution as it is correctly coded raises an error in the W3C 
 
 As discussed in ## Design Choices above whilst using coolors to find a better colour contrast the new choice of coloyrs but after changing the colour in the logo but reverted to the previous scheme because I felt it gave a bodlder aesthetic style to the website.
 
-Whilst using Chrome's Lighthouse there was a slight overflow issue using the extension Unicorn Revealer showed all was in order.
+Whilst using Chrome's Lighthouse there was a slight overflow issue using the extension Unicorn Revealer showed all what was required to resolve the issue swiftly.
 
-The download in the Schedule section 
+The download in the Schedule section works correctly opening a pdf in new page with the local environment but the 
 
  
 
