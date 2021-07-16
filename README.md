@@ -103,7 +103,7 @@ A header and sub-header have been added to display some text, in this section bo
  A header is above three equal sized columns with three rows. In column 1 is the text describing classes held at the gym with a sub-header. In columns 2 and three are images reflective of the text beside them.
 
 #### Schedule
-A header is above three columns and a single row. The first column (col-md-6) and the further two columns Col-md-3), The first column has the doenload link with the two other columns have the buttons for booking classes and member login. These features are to be implemented at a later point.  Currently the buttons when actioned will take the user to the contact us page until these features have been created.
+A header is above three columns and a single row. The first column (col-md-6) and the further two columns Col-md-3), The first column has the doenload link with the two other columns have the buttons for booking classes and member login. These features are to be implemented at a later point.  Currently the buttons when actioned will take the user to the contact page using a link until these features have been created.
 
 #### Facilities
 A header is above two columns, in column one (col-md-8) and the column two Col-md-4). In column is the text detailing the gyms eqipment and facilities, with images supporting this text in column 2.
@@ -153,7 +153,7 @@ I also used the following to fine tune the process;
  * Lightouse (chrome developer tools) for security and load times.
 
 Button for member's Login, this feature is to follow at a later date. AS a temorary solution when the button is pressed the user is relocated to the website contact page.
-Unfortunately this solution as it is correctly coded raises an error in the W3C markup validator. I will look into the adding a modal to the button advising the feature is currently unvailable. This will resolve the issue with he W3C markup validator report. This also applies to the book classes button feature. This solution will be added to the website by the close of play on the 15th July 2021.
+Unfortunately this solution as it is correctly coded raises an error in the W3C markup validator. I will look into the adding a link to the button advising the feature is currently unvailable. This will resolve the issue with he W3C markup validator report. This also applies to the book classes button feature. This solution will be added to the website by the close of play on the 15th July 2021.
 
 As discussed in ## Design Choices above whilst using coolors to find a better colour contrast the new choice of coloyrs but after changing the colour in the logo but reverted to the previous scheme because I felt it gave a bodlder aesthetic style to the website.
 
@@ -161,25 +161,7 @@ Whilst using Chrome's Lighthouse there was a slight overflow issue using the ext
 
 The download in the Schedule section works correctly opening a pdf in new page with the local environment but the 
 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+During testing to make the contact form to standing out a bit more an off-white was decide upon and actioned.
 
 ## Deployment
 
