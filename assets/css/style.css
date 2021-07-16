@@ -21,14 +21,8 @@ p {
 }
 
 .section-head {
-    background-color: #ffffff;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-top: 2rem;
-    padding-bottom: 40px; 
+    background-color: #fbfbfb;
     text-align: center;
-    margin-bottom: 0;
-    padding: 1rem 0rem;
 }
 
 .subhead {
@@ -36,7 +30,7 @@ p {
 }
 
 .bg-color-main {
-    padding-right: 10px;
+    padding-right: 1rem;
     background-color: #0B2222;
 }
 
@@ -64,8 +58,8 @@ p {
 
 .navbar-stick {
     display: flex;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     position: sticky;
     z-index: 999999;
 }
@@ -182,16 +176,17 @@ p {
     display: inline-block;
     max-width: 90%;
     max-height: 15rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     height: 100%;
     align-items: center;
     justify-content: center;
-    padding-left: 00px;
-    margin-bottom: 1rem;
+   /* padding-left: 00px;*/
+    
 }
 
 .icon {
-    border-radius: 400px;
+    border-radius: 25rem;
     border-style: solid;
     display: block;
     margin-left: auto;
@@ -299,7 +294,7 @@ footer {
     height: 2rem;
     padding: 0.75rem 0;
     border-radius: 50%;
-    font-size: 13px;
+    font-size: 1rem;
     line-height: 0.5rem;
     text-align: center;
     color: #fafafa;
@@ -315,7 +310,7 @@ footer {
 }
 
 #footer-details {
-    padding: 10px;
+    padding: 1rem;
 }
 
 /* Jumbotron */
