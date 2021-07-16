@@ -168,7 +168,13 @@ The project after the completed code was commited and pushed to GitHub could be 
 
 1. From the menu select **Settings**.
 2. Scrolling down the vertical menu (topped by Options) select **Pages** which leads to the **Source section**.
-3. 
+3. Under Source click the drop-down menu labelled None and select Main Branch.
+4. You are then required to choose a folder, either Docs or root. You should select root.
+5. You can now save these selections and the link to the deployed website will be dosplayed.
+6. The website is live https://davej66.github.io/dfg/ .
+
+### To run the project locally:
+
 
 
 
