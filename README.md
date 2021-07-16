@@ -163,8 +163,7 @@ The google map used in the contact us section does locate the gym's location cor
 
 ## Deployment
 
-
-The project after the completed code was commited and pushed to GitHub could be deployed and [found here.](https://davej66.github.io/dfg/). This is achieved by navigating to the page holding the project repository and executing the following steps:
+The project after the completed code has been commited and pushed to GitHub can be deployed and [found here.](https://davej66.github.io/dfg/). This is achieved by navigating to the page holding the project repository and executing the following steps:
 
 1. From the menu select **Settings**.
 2. Scrolling down the vertical menu (topped by Options) select **Pages** which leads to the **Source section**.
@@ -174,6 +173,16 @@ The project after the completed code was commited and pushed to GitHub could be 
 6. The website is live https://davej66.github.io/dfg/ .
 
 ### To run the project locally:
+This achieve by the following process;
+1. Under the repository name and the menu that contains Gitpod click Code.
+2. Select HTTPS the location will already be present.
+3. To the right of this address is an icon once this clicked the location will be cloned.
+4. the clone can be found at this [https://github.com/Davej66/dfg.git](https://github.com/Davej66/dfg.git).
+
+
+Further reading and troubleshooting on cloning a repository from GitHub [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository)
+
+
 
 
 
