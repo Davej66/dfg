@@ -163,6 +163,8 @@ The download in the Schedule section works correctly opening a pdf in new page w
 
 During testing to make the contact form to standing out a bit more an off-white was decide upon and actioned.
 
+The contact form will not submit untill the required fields have been populated but the feature to send to the gym will follow later so when submitted the user is returned to the top of the page. This will decided upon during testing not to leave the user with a broken feature, also the contact form requires a reset function. This is available in javascript and will be implemented later in development of the project after 18th July 2021.
+
 ## Deployment
 
 
