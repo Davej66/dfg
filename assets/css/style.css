@@ -150,7 +150,7 @@ p {
     padding-bottom: 1rem;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 63rem) {
     .gallery-style {
         padding-top: 8rem;
         padding-left: 0;
@@ -181,8 +181,6 @@ p {
     height: 100%;
     align-items: center;
     justify-content: center;
-   /* padding-left: 00px;*/
-    
 }
 
 .icon {
