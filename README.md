@@ -204,9 +204,9 @@ The code for the "Jumbotron" was taken from the codeinsitute as was much of the 
 ## Acknowledgements
 
 
-Thanking my mentor [Richard Wells](https://github.com/D0nni387/) for his guidance and support. His suggestions during the mid-review led to improvements to website.
+Thanking my mentor [Richard Wells](https://github.com/D0nni387/) for his invaluable guidance and support. His suggestions during the mid-review led to improvements to website and my accelerated my development and comprehension..
 
-Support from the slack community when seeking assistance.
+Support from the slack community when seeking assistance for that gentle nudge in the right direction.
 
 
 
