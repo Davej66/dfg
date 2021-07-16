@@ -1,6 +1,11 @@
 # Dowlais Fitness Gym
+![image](https://user-images.githubusercontent.com/85559896/125904146-2d3fa7ef-b060-4d0c-b500-bdd6aad2f952.png)
 
-![image](https://user-images.githubusercontent.com/85559896/125291579-79146780-e319-11eb-9692-ba00296b138b.png)
+
+
+![image](https://user-images.githubusercontent.com/85559896/125904016-89fec847-0159-4816-8681-4a443c29799a.png)
+
+
 ## Objectives of the project
 The client is launching a fitness gym and wanted to showcase the facilitives and classes avialable. To attract members from the local community and have their curiosity nudged.  
 
@@ -76,9 +81,14 @@ For my website I chose to use [Bootstrap](https://getbootstrap.com/). Bootstrap 
 
 ## Wireframes
 
-![image](https://user-images.githubusercontent.com/85559896/125463096-d781acef-0439-4919-97fd-78c4641262a5.png)
+### Desktop
+![desktop](https://user-images.githubusercontent.com/85559896/125909143-f2728b60-4191-43da-8956-6d0d1ce58dae.png)
 
+### Tablet
+![tablet](https://user-images.githubusercontent.com/85559896/125909187-759cce5f-41fa-40a9-8add-a47c3690f588.png)
 
+### Mobile
+![mobile](https://user-images.githubusercontent.com/85559896/125909154-0219138c-b365-4ec1-91ba-b043f1349590.png)
 
 ## Features
 ### Existing Features
