@@ -1,7 +1,4 @@
 # Dowlais Fitness Gym
-![image](https://user-images.githubusercontent.com/85559896/125904146-2d3fa7ef-b060-4d0c-b500-bdd6aad2f952.png)
-
-
 
 ![image](https://user-images.githubusercontent.com/85559896/125904016-89fec847-0159-4816-8681-4a443c29799a.png)
 
@@ -30,8 +27,8 @@ As a new business and all members will be new and likely to be from the local ar
   * As a user, I want to able to contact the gym.
   * As a user, I want to see images from the gym of classes and the facilities.
   * As a user, I want to find a website that is easy to navigate.
-  * As a user, I want the website to be intuitive as this will leave me with positive attude towards earning more.
-  * As a user, I want to feel that i will get a swift response from the contact form inquiry submission.
+  * As a user, I want the website to be intuitive as this will leave me with a positive attitude towards learning more.
+  * As a user, I want to feel that I will get a swift response from the contact form inquiry submission.
   * As a user, I want the social media links to open in a new browser.
   * As a user, I want the classes timetable pdf to open in a new browser.
   * As a user, I want to feel this is the gym I want to be a part of.
@@ -161,7 +158,7 @@ A header is above two columns and a single row. In column one is the address of 
 
 ## Testing
 ### Approach and Tools
-As I had deployed my website by my midpoint mweeting with my mentor [Richard Wells](https://github.com/D0nni387/) I was in a position to commence testing my website. I was using chrome's web DevTool on every change I made to the website to see the impact and if it met expectations.
+As I had deployed my website by my midpoint meeting with my mentor [Richard Wells](https://github.com/D0nni387/) I was in a position to commence testing my website. I was using chrome's web DevTool on every change I made to the website to see the impact and if it met expectations.
 
 Once I had the structure in place, I began testing across other devices screen sizes with chrome's DevTools. Further down the development timeline I also included testing on actual devices; A samsung s20 Ultra, samsung s8, iphone 12 and ipad 4 to complement chrome DevTool.
 
@@ -175,14 +172,12 @@ I also used the following to fine tune the process;
 
 ### Bugs and Solutions
 
-Button for member's Login, this feature is to follow at a later date. AS a temorary solution when the button is pressed the user is relocated to the website contact page.
-Unfortunately this solution as it is correctly coded raises an error in the W3C markup validator. I will look into the adding a link to the button advising the feature is currently unvailable. This will resolve the issue with he W3C markup validator report. This also applies to the book classes button feature. This solution will be added to the website by the close of play on the 15th July 2021.
+The button for 'Members Login'![image](https://user-images.githubusercontent.com/85559896/126046640-5e58aaa4-b48d-4642-9520-de55c457ba8c.png)is for the feature that is to follow at a later date. As a temorary solution when the button is pressed the user is relocated to the website contact page.
+The original code used to achieve this raised an error in the W3C markup validator, looking in the bootstrap documentationa the solution was found, this was also applied to the Book classes here button![image](https://user-images.githubusercontent.com/85559896/126047049-8427d393-2bd0-42f9-b58a-14145cd6c328.png) by the close of play on the 15th July 2021.
 
-As discussed in ## Design Choices above whilst using coolors to find a better colour contrast the new choice of coloyrs but after changing the colour in the logo but reverted to the previous scheme because I felt it gave a bodlder aesthetic style to the website.
+As discussed in Design Choices above whilst using coolors to find a better colour contrast the new choice of colours. After changing the colour in the logo to the current colour scheme I decided to revert the logo to original colour scheme because I felt it gave a bolder aesthetic style to the website.
 
-Whilst using Chrome's Lighthouse there was a slight overflow issue using the extension Unicorn Revealer showed all what was required to resolve the issue swiftly.
-
-The download in the Schedule section works correctly opening a pdf in new page with the local environment but the 
+Whilst using Chrome's Lighthouse there was a slight overflow issue, using the extension Unicorn Revealer showed all what was required to resolve the issue swiftly.
 
 During testing to make the contact form to standing out a bit more an off-white was decide upon and actioned.
 
@@ -190,7 +185,15 @@ The contact form will not submit untill the required fields have been populated 
 
 The google map used in the contact us section does locate the gym's location correctly because I have used the map from the previous business's map and when launhed in a new paged gives this not dissolved business details. This is not ideal and going forward a new google map unique to the gym will be generated from the google map application.
 
-The dowload of the gym's classes timetable in a pdf format worked correctly in GitPod but once deployed a 404 is displayed in the new page, it was identified that 
+The download function in the Schedule section of the gym's classes timetable worked correctly opening a pdf in new page when in the dev environment but when deployed 
+a 404 is displayed in the new page.
+
+![image](https://user-images.githubusercontent.com/85559896/126046441-656b736d-758f-428c-b525-b6e258c88a87.png)
+
+It was identified that a forward slash was the cause of the error and once removed the pdf correcting opened.
+
+![image](https://user-images.githubusercontent.com/85559896/126046446-b0af37d1-8405-4263-b0f9-2ad196934eab.png)
+
 
 
 
