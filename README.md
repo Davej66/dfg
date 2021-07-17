@@ -81,21 +81,8 @@ The final colours now for the background are #0B2222 and the text #FAC16B but th
 For my website I chose to use [Bootstrap](https://getbootstrap.com/). Bootstrap is a library of HTML, CSS & Javascrpit, focused on mobile first. As this is the primary format for the website to be displayed it improves that this website will work well on mobile.
 
 ## Wireframes
-
-
-
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Desktop &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Tablet &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Mobile  
 ![wireframes](https://user-images.githubusercontent.com/85559896/126038379-6d1148af-25cf-4d56-bf0b-9d3086952eef.png)
-
-
-### Desktop &nbsp;&nbsp;&nbsp;&nbsp;text   Tablet                      Mobile  
-![image](https://user-images.githubusercontent.com/85559896/126032924-6ca63078-aab0-42f0-98f6-79d591d00afa.png)    ![image](https://user-images.githubusercontent.com/85559896/126032948-590c9697-da95-41af-8d9b-c4b633ee7cce.png)
-
-### Tablet
-![image]{: height="75px" width="300px" align="left"}(https://user-images.githubusercontent.com/85559896/126032948-590c9697-da95-41af-8d9b-c4b633ee7cce.png) |
-
-### Mobile
-![image](https://user-images.githubusercontent.com/85559896/126032967-3068aed6-d8b4-4cc8-b54a-088c6c6aae66.png) |
-
 
 ## Features
 ### Existing Features
