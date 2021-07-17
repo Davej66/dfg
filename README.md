@@ -86,24 +86,45 @@ For my website I chose to use [Bootstrap](https://getbootstrap.com/). Bootstrap 
 
 ## Features
 ### Existing Features
+#### Navigation
+![image](https://user-images.githubusercontent.com/85559896/126043192-2d47a74f-17bd-456c-b2e0-82fad1a40c0d.png)
 
 #### About Us
+![image](https://user-images.githubusercontent.com/85559896/126043198-0c955a75-2a78-4553-a3b5-4b61db686877.png)
+
  In bootstrap a single column has been created and a brief statement about the gym.
 
 #### Gallery
+![image](https://user-images.githubusercontent.com/85559896/126043617-164b2a80-d187-49a5-9ea5-b442a62a8970.png)
+
 A header and sub-header have been added to display some text, in this section bootstrap generates two each sized columns with two rows with a total of 4 images displayed within these. 
 
+#### Jumbotron
+![image](https://user-images.githubusercontent.com/85559896/126043764-4ac9531a-0852-4ca6-b7b1-c8ab28e37f87.png)
+
+
 #### Classes
+
+
  A header is above three equal sized columns with three rows. In column 1 is the text describing classes held at the gym with a sub-header. In columns 2 and three are images reflective of the text beside them.
 
 #### Schedule
+![image](https://user-images.githubusercontent.com/85559896/126045298-932d4c0f-60d3-4349-b6f4-02e9157bd485.png)
+
 A header is above three columns and a single row. The first column (col-md-6) and the further two columns Col-md-3), The first column has the download link with the two other columns have the buttons for booking classes and member login. These features are to be implemented at a later point.  Currently the buttons when actioned will take the user to the contact page using a link until these features have been created.
 
 #### Facilities
+![image](https://user-images.githubusercontent.com/85559896/126045303-4c12bd60-e668-401d-b30a-9aa700c3ff60.png)
+
 A header is above two columns, in column one (col-md-8) and the column two Col-md-4). In column is the text detailing the gyms eqipment and facilities, with images supporting this text in column 2.
 
 #### Contact Us
+![image](https://user-images.githubusercontent.com/85559896/126045358-361d1f18-6840-4b74-a840-54d9dcd8e508.png)
+
 A header is above two columns and a single row. In column one is the address of the gym with a google map of its location below this. Below the map are the opening times of the gym. In column two the gym's telephone is again shown to allow the user an opportunity to note the number or to contact the gym using the contact forms provided.
+
+#### Footer
+![image](https://user-images.githubusercontent.com/85559896/126045440-916fd12b-766d-454b-9658-837527ac8103.png)
 
 
 ### Features to be implemented
@@ -139,12 +160,20 @@ A header is above two columns and a single row. In column one is the address of 
 
 
 ## Testing
+### Approach and Tools
+As I had deployed my website by my midpoint mweeting with my mentor [Richard Wells](https://github.com/D0nni387/) I was in a position to commence testing my website. I was using chrome's web DevTool on every change I made to the website to see the impact and if it met expectations.
 
-During testing I extensively used Chrome Developer Tools, ensuring the website acted correctly with various screen sizes.
+Once I had the structure in place, I began testing across other devices screen sizes with chrome's DevTools. Further down the development timeline I also included testing on actual devices; A samsung s20 Ultra, samsung s8, iphone 12 and ipad 4 to complement chrome DevTool.
+
+I also was able to ask family to review the website on their devices for their opinion and issues they encountered.
+
+### Validator Testing
 I also used the following to fine tune the process;
  * W3C Markup validator tool for HTML.
  * W3C CSS validator tool for CSS
  * Lighthouse (chrome developer tools) for security and load times.
+
+### Bugs and Solutions
 
 Button for member's Login, this feature is to follow at a later date. AS a temorary solution when the button is pressed the user is relocated to the website contact page.
 Unfortunately this solution as it is correctly coded raises an error in the W3C markup validator. I will look into the adding a link to the button advising the feature is currently unvailable. This will resolve the issue with he W3C markup validator report. This also applies to the book classes button feature. This solution will be added to the website by the close of play on the 15th July 2021.
@@ -160,6 +189,8 @@ During testing to make the contact form to standing out a bit more an off-white 
 The contact form will not submit untill the required fields have been populated but the feature to send to the gym will follow later so when submitted the user is returned to the top of the page. This will decided upon during testing not to leave the user with a broken feature, also the contact form requires a reset function. This is available in javascript and will be implemented later in development of the project after 18th July 2021.
 
 The google map used in the contact us section does locate the gym's location correctly because I have used the map from the previous business's map and when launhed in a new paged gives this not dissolved business details. This is not ideal and going forward a new google map unique to the gym will be generated from the google map application.
+
+
 
 ## Deployment
 
