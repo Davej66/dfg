@@ -47,7 +47,7 @@ As a new business and all members will be new and likely to be from the local ar
   *  A navigation menu that is easy to use.
   *  Appealing visual elements.
   *  Access to contact gym.
-  *  information about classes and equipment.
+  *  Information about classes and equipment.
 
 ### Expectations
   * Links opening in a new browser, such as social media links and timetable pdf.
@@ -64,9 +64,9 @@ The use of icons has been kept the minimum and from the [Fontawesome](https://fo
 
 
 ### Colours
-The colour scheme used for the website was a green background with golden lettering. I chose these colours because i wanted the user to feel an air of quality and exclusivity, from previous subconscious experience. This colour scheme is similar to that used by Rolex and Wimbledon tennis tournament (this was underway during the design process). I hoped the clientele for the gym would be fimiliar with these and connect those entities of quality and would also be associated with the gym.
+The colour scheme used for the website was a green background with golden lettering. I chose these colours because i wanted the user to feel an air of quality and exclusivity, from previous subconscious experience. This colour scheme is similar to that used by Rolex and Wimbledon tennis tournament (this was underway during the design process). I hoped the clientele for the gym would be familiar with these and connect those entities of quality and would also be associated with the gym.
 
-The original colours were the background was #277676 and the text was #EC9209 but after runner a colour contrast test on the [Coolors](https://coolors.co/) website it scored badly and with a subtle change from green background a better scored was achieved without losing the "quality" look of the website.
+The original colours for the background was #277676 and the text was #EC9209 but after running a colour contrast test on the [Coolors](https://coolors.co/) website it scored badly and with a subtle change a better scored was achieved without losing the "quality" look of the website.
 
 ![Original palette (DFG)](https://user-images.githubusercontent.com/85559896/126037957-8f84df7a-8b9d-4f85-8568-888c61a50b5b.png)
 
@@ -75,7 +75,7 @@ The final colours now for the background are #0B2222 and the text #FAC16B but th
 ![Final palette(DFG)](https://user-images.githubusercontent.com/85559896/126037963-e66dd5c7-931f-488b-8fa9-a4e317cb9327.png)
 
 ### Structure
-For my website I chose to use [Bootstrap](https://getbootstrap.com/). Bootstrap is a library of HTML, CSS & Javascrpit, focused on mobile first. As this is the primary format for the website to be displayed it improves that this website will work well on mobile.
+For my website I chose to use [Bootstrap](https://getbootstrap.com/). Bootstrap is a library of HTML, CSS & JavaScript, focused on mobile first. As this is the primary format for the website to be displayed it improves that this website will work well on mobile.
 
 ## Wireframes
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Desktop &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Tablet &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Mobile  
@@ -113,7 +113,7 @@ A header is above three columns and a single row. The first column (col-md-6) an
 #### Facilities
 ![image](https://user-images.githubusercontent.com/85559896/126045303-4c12bd60-e668-401d-b30a-9aa700c3ff60.png)
 
-A header is above two columns, in column one (col-md-8) and the column two Col-md-4). In column is the text detailing the gyms eqipment and facilities, with images supporting this text in column 2.
+A header is above two columns, in column one (col-md-8) and the column two Col-md-4). In column is the text detailing the gyms equipment and facilities, with images supporting this text in column 2.
 
 #### Contact Us
 ![image](https://user-images.githubusercontent.com/85559896/126045358-361d1f18-6840-4b74-a840-54d9dcd8e508.png)
@@ -173,7 +173,7 @@ I also used the following to fine tune the process;
 ### Bugs and Solutions
 
 The button for 'Members Login'![image](https://user-images.githubusercontent.com/85559896/126046640-5e58aaa4-b48d-4642-9520-de55c457ba8c.png)is for the feature that is to follow at a later date. As a temorary solution when the button is pressed the user is relocated to the website contact page.
-The original code used to achieve this raised an error in the W3C markup validator, looking in the bootstrap documentationa the solution was found, this was also applied to the Book classes here button![image](https://user-images.githubusercontent.com/85559896/126047049-8427d393-2bd0-42f9-b58a-14145cd6c328.png) by the close of play on the 15th July 2021.
+The original code used to achieve this raised an error in the W3C markup validator, looking in the bootstrap documentation a the solution was found, this was also applied to the Book classes here button![image](https://user-images.githubusercontent.com/85559896/126047049-8427d393-2bd0-42f9-b58a-14145cd6c328.png) by the close of play on the 15th July 2021.
 
 As discussed in Design Choices above whilst using coolors to find a better colour contrast the new choice of colours. After changing the colour in the logo to the current colour scheme I decided to revert the logo to original colour scheme because I felt it gave a bolder aesthetic style to the website.
 
@@ -181,9 +181,9 @@ Whilst using Chrome's Lighthouse there was a slight overflow issue, using the ex
 
 During testing to make the contact form to standing out a bit more an off-white was decide upon and actioned.
 
-The contact form will not submit untill the required fields have been populated but the feature to send to the gym will follow later so when submitted the user is returned to the top of the page. This will decided upon during testing not to leave the user with a broken feature, also the contact form requires a reset function. This is available in javascript and will be implemented later in development of the project after 18th July 2021.
+The contact form will not submit until the required fields have been populated but the feature to send to the gym will follow later so when submitted the user is returned to the top of the page. This will be decided upon during testing not to leave the user with a broken feature, also the contact form requires a reset function. This is available in JavaScript and will be implemented later in development of the project after 18th July 2021.
 
-The google map used in the contact us section does locate the gym's location correctly because I have used the map from the previous business's map and when launhed in a new paged gives this not dissolved business details. This is not ideal and going forward a new google map unique to the gym will be generated from the google map application.
+The google map used in the contact us section does locate the gym's location correctly because I have used the map from the previous business's map and when launched in a new paged gives this not dissolved business details. This is not ideal and going forward a new google map unique to the gym will be generated from the google map application.
 
 The download function in the Schedule section of the gym's classes timetable worked correctly opening a pdf in new page when in the dev environment but when deployed 
 a 404 is displayed in the new page.
@@ -199,7 +199,7 @@ It was identified that a forward slash was the cause of the error and once remov
 
 ## Deployment
 
-The project after the completed code has been commited and pushed to GitHub can be deployed and [found here.](https://davej66.github.io/dfg/). This is achieved by navigating to the page holding the project repository and executing the following steps:
+The project after the completed code has been committed and pushed to GitHub can be deployed and [found here.](https://davej66.github.io/dfg/). This is achieved by navigating to the page holding the project repository and executing the following steps:
 
 1. From the menu select **Settings**.
 2. Scrolling down the vertical menu (topped by Options) select **Pages** which leads to the **Source section**.
@@ -209,7 +209,7 @@ The project after the completed code has been commited and pushed to GitHub can 
 6. The website is live https://davej66.github.io/dfg/ .
 
 ### To run the project locally:
-This achieve by the following process;
+To achieve this by the following process;
 1. Under the repository name and the menu that contains Gitpod click Code.
 2. Select HTTPS the location will already be present.
 3. To the right of this address is an icon once this clicked the location will be cloned.
@@ -240,7 +240,7 @@ The code for the "Jumbotron" was taken from the codeinsitute as was much of the 
 ## Acknowledgements
 
 
-Thanking my mentor [Richard Wells](https://github.com/D0nni387/) for his invaluable guidance and support. His suggestions during the mid-review led to improvements to website and my accelerated my development and comprehension..
+Thanking my mentor [Richard Wells](https://github.com/D0nni387/) for his invaluable guidance and support. His suggestions during the mid-review led to improvements to website and my accelerated my development and comprehension.
 
 Support from the slack community when seeking assistance for that gentle nudge in the right direction.
 
