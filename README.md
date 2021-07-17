@@ -64,7 +64,7 @@ The use of icons has been kept the minimum and from the [Fontawesome](https://fo
 
 
 ### Colours
-The colour scheme used for the website was a green background with golden lettering. I chose these colours because i wanted the user to feel an air of quality and exclusivity, from previous subconscious experience. This colour scheme is similar to that used by Rolex and Wimbledon tennis tournament (this was underway during the design process). I hoped the clientele for the gym would be familiar with these and connect those entities of quality and would also be associated with the gym.
+The colour scheme used for the website was a green background with golden lettering. I chose these colours because i wanted the user to feel an air of quality and exclusivity, from previous subconscious experience. This colour scheme is like that used by Rolex and Wimbledon tennis tournament (this was underway during the design process). I hoped the clientele for the gym would be familiar with these and connect those entities of quality and would also be associated with the gym.
 
 The original colours for the background was #277676 and the text was #EC9209 but after running a colour contrast test on the [Coolors](https://coolors.co/) website it scored badly and with a subtle change a better scored was achieved without losing the "quality" look of the website.
 
@@ -101,6 +101,7 @@ A header and sub-header have been added to display some text, in this section bo
 
 #### Jumbotron
 ![image](https://user-images.githubusercontent.com/85559896/126043764-4ac9531a-0852-4ca6-b7b1-c8ab28e37f87.png)
+
 A single hero image is contained with scrolling.
 
 #### Classes
@@ -127,7 +128,7 @@ Below the map are the opening times of the gym. In column two the gym's telephon
 
 #### Footer
 ![image](https://user-images.githubusercontent.com/85559896/126045440-916fd12b-766d-454b-9658-837527ac8103.png)
-A single column with a heading that is centered with social media icons below this. These open in a new page when selected.
+A single column with a central heading with social media icons below this, these open in a new page when selected.
 
 
 ### Features to be implemented
@@ -173,20 +174,23 @@ I also was able to ask family to review the website on their devices for their o
 ### Validator Testing
 I also used the following to fine tune the process;
  * W3C Markup validator tool for HTML.
+  - No issues were found with this [W3C HTML Validation](https://validator.w3.org/).
  * W3C CSS validator tool for CSS
+  - No issues were found with this [W3C CSS Validation](https://jigsaw.w3.org/css-validator/#validate_by_input).
  * Lighthouse (chrome developer tools) for security and load times.
+  - No issues were found with this [Chrome Dev Tools (incl Lighthouse)](https://developer.chrome.com/docs/devtools/).
 
 ### Bugs and Solutions
 #### Buttons
 - *Bug* - The button for 'Members Login'![image](https://user-images.githubusercontent.com/85559896/126046640-5e58aaa4-b48d-4642-9520-de55c457ba8c.png)is for the feature that is to follow at a later date. As a temorary solution when the button is pressed the user is relocated to the website contact page.
 The original code used to achieve this raised an error in the W3C markup validator. This also applied to the Book classes here button![image](https://user-images.githubusercontent.com/85559896/126047049-8427d393-2bd0-42f9-b58a-14145cd6c328.png)
 - *Fix* - Looking in the bootstrap documentation a solution was found.
-- *Verdict* - When the buttons are actioned they link to the contact form.
+- *Verdict* - When the buttons are actioned, they link to the contact form.
 
 #### Contact Form
 - *Bug* - The backend for data submitted from the contact form will be addressed in later releases during testing it was noted that after one set of data was submitted the form   cleared but subsequent data would not be submitted or reset after the submit button had been pressed.
-- *Fix* - When reviewing the code and refereing back to the course and w3schools.com I had omitted the action attribute.
-- *Verdict* - The form now submits and clears ready to recieve the next inputs correctly.
+- *Fix* - When reviewing the code and referring to the course and w3schools.com I had omitted the action attribute.
+- *Verdict* - The form now submits and clears ready to receive the next inputs correctly.
 
 #### PDF Download
 
@@ -205,7 +209,7 @@ The project after the completed code has been committed and pushed to GitHub can
 2. Scrolling down the vertical menu (topped by Options) select **Pages** which leads to the **Source section**.
 3. Under Source click the drop-down menu labelled None and select Main Branch.
 4. You are then required to choose a folder, either Docs or root. You should select root.
-5. You can now save these selections and the link to the deployed website will be dosplayed.
+5. You can now save these selections and the link to the deployed website will be displayed.
 6. The website is live https://davej66.github.io/dfg/ .
 
 ### To run the project locally:
@@ -230,7 +234,7 @@ The code for the "Jumbotron" was taken from the codeinsitute as was much of the 
 
 ## Acknowledgements
 
-Thanking my mentor [Richard Wells](https://github.com/D0nni387/) for his invaluable guidance and support. His suggestions during the mid-review led to improvements to website and accelerated my development and comprehension, further more at the final review.
+Thanking my mentor [Richard Wells](https://github.com/D0nni387/) for his invaluable guidance and support. His suggestions during the mid-review led to improvements to website and accelerated my development and comprehension, furthermore at the final review.
 
 Support from the slack community when seeking assistance for that gentle nudge in the right direction.
 
