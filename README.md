@@ -68,21 +68,34 @@ The use of icons has been kept the minimum and from the [Fontawesome](https://fo
 
 ### Colours
 The colour scheme used for the website was a green background with golden lettering. I chose these colours because i wanted the user to feel an air of quality and exclusivity, from previous subconscious experience. This colour scheme is similar to that used by Rolex and Wimbledon tennis tournament (this was underway during the design process). I hoped the clientele for the gym would be fimiliar with these and connect those entities of quality and would also be associated with the gym.
-The background was #277676 and the text was #EC9209 but after runner a colour contrast test on the [Coolors](https://coolors.co/) website it scored badly and with a subtle change from green background a better scored was achieved without losing the "quality" look of the website.
+
+The original colours were the background was #277676 and the text was #EC9209 but after runner a colour contrast test on the [Coolors](https://coolors.co/) website it scored badly and with a subtle change from green background a better scored was achieved without losing the "quality" look of the website.
+
+![Original palette (DFG)](https://user-images.githubusercontent.com/85559896/126037957-8f84df7a-8b9d-4f85-8568-888c61a50b5b.png)
+
+The final colours now for the background are #0B2222 and the text #FAC16B but the text on the light areas continued to score badly so these were changed from #EC9209 to #0B2222 and the background colour to #FBFBFB from #FFFFFF.
+
+![Final palette(DFG)](https://user-images.githubusercontent.com/85559896/126037963-e66dd5c7-931f-488b-8fa9-a4e317cb9327.png)
 
 ### Structure
 For my website I chose to use [Bootstrap](https://getbootstrap.com/). Bootstrap is a library of HTML, CSS & Javascrpit, focused on mobile first. As this is the primary format for the website to be displayed it improves that this website will work well on mobile.
 
 ## Wireframes
 
-### Desktop
-![desktop](https://user-images.githubusercontent.com/85559896/125909143-f2728b60-4191-43da-8956-6d0d1ce58dae.png)
+
+
+![wireframes](https://user-images.githubusercontent.com/85559896/126038379-6d1148af-25cf-4d56-bf0b-9d3086952eef.png)
+
+
+### Desktop &nbsp;&nbsp;&nbsp;&nbsp;text   Tablet                      Mobile  
+![image](https://user-images.githubusercontent.com/85559896/126032924-6ca63078-aab0-42f0-98f6-79d591d00afa.png)    ![image](https://user-images.githubusercontent.com/85559896/126032948-590c9697-da95-41af-8d9b-c4b633ee7cce.png)
 
 ### Tablet
-![tablet](https://user-images.githubusercontent.com/85559896/125909187-759cce5f-41fa-40a9-8add-a47c3690f588.png)
+![image]{: height="75px" width="300px" align="left"}(https://user-images.githubusercontent.com/85559896/126032948-590c9697-da95-41af-8d9b-c4b633ee7cce.png) |
 
 ### Mobile
-![mobile](https://user-images.githubusercontent.com/85559896/125909154-0219138c-b365-4ec1-91ba-b043f1349590.png)
+![image](https://user-images.githubusercontent.com/85559896/126032967-3068aed6-d8b4-4cc8-b54a-088c6c6aae66.png) |
+
 
 ## Features
 ### Existing Features
