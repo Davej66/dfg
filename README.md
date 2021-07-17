@@ -190,6 +190,8 @@ The contact form will not submit untill the required fields have been populated 
 
 The google map used in the contact us section does locate the gym's location correctly because I have used the map from the previous business's map and when launhed in a new paged gives this not dissolved business details. This is not ideal and going forward a new google map unique to the gym will be generated from the google map application.
 
+The dowload of the gym's classes timetable in a pdf format worked correctly in GitPod but once deployed a 404 is displayed in the new page, it was identified that 
+
 
 
 ## Deployment
