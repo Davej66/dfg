@@ -86,11 +86,8 @@ For my website I chose to use [Bootstrap](https://getbootstrap.com/). Bootstrap 
 #### Navigation
 ![image](https://user-images.githubusercontent.com/85559896/126043192-2d47a74f-17bd-456c-b2e0-82fad1a40c0d.png)
 
-
-
 Using Bootstrap and keeping its styling consistent ith the rest of the website the navbar. The navbar is responsive with a collapsible menu, accessed via a burger icon.
 The 'sticky' in position gives a professional and pleasing style for the website.
-
 
 #### About Us
 ![image](https://user-images.githubusercontent.com/85559896/126043198-0c955a75-2a78-4553-a3b5-4b61db686877.png)
@@ -104,12 +101,12 @@ A header and sub-header have been added to display some text, in this section bo
 
 #### Jumbotron
 ![image](https://user-images.githubusercontent.com/85559896/126043764-4ac9531a-0852-4ca6-b7b1-c8ab28e37f87.png)
-
+A single hero image is contained with scrolling.
 
 #### Classes
+![image](https://user-images.githubusercontent.com/85559896/126050145-7bd10763-c63a-4a29-98b9-f1e76bc64e73.png)
 
-
- A header is above three equal sized columns with three rows. In column 1 is the text describing classes held at the gym with a sub-header. In columns 2 and three are images reflective of the text beside them.
+ A header is above three equal sized columns with three rows. In column 1 is the text describing classes held at the gym with a sub-header. In columns 2 and three are images reflective of the text beside them a total of six images.
 
 #### Schedule
 ![image](https://user-images.githubusercontent.com/85559896/126045298-932d4c0f-60d3-4349-b6f4-02e9157bd485.png)
@@ -124,10 +121,13 @@ A header is above two columns, in column one (col-md-8) and the column two Col-m
 #### Contact Us
 ![image](https://user-images.githubusercontent.com/85559896/126045358-361d1f18-6840-4b74-a840-54d9dcd8e508.png)
 
-A header is above two columns and a single row. In column one is the address of the gym with a google map of its location below this. Below the map are the opening times of the gym. In column two the gym's telephone is again shown to allow the user an opportunity to note the number or to contact the gym using the contact forms provided.
+A header is above two columns and a single row. In column one is the address of the gym with a google map of its location below this. The google map used in the contact us section does locate the gym's location correctly because I have used the map from the previous business's map and when launched in a new paged gives this not dissolved business details. This is not ideal and in the update a new google map unique to the gym will be generated from the google map application. 
+
+Below the map are the opening times of the gym. In column two the gym's telephone is again shown to allow the user an opportunity to note the number and contact directly by telephone or to contact the gym using the contact forms provided.
 
 #### Footer
 ![image](https://user-images.githubusercontent.com/85559896/126045440-916fd12b-766d-454b-9658-837527ac8103.png)
+A single column with a heading that is centered with social media icons below this. These open in a new page when selected.
 
 
 ### Features to be implemented
@@ -177,31 +177,25 @@ I also used the following to fine tune the process;
  * Lighthouse (chrome developer tools) for security and load times.
 
 ### Bugs and Solutions
+#### Buttons
+- *Bug* - The button for 'Members Login'![image](https://user-images.githubusercontent.com/85559896/126046640-5e58aaa4-b48d-4642-9520-de55c457ba8c.png)is for the feature that is to follow at a later date. As a temorary solution when the button is pressed the user is relocated to the website contact page.
+The original code used to achieve this raised an error in the W3C markup validator. This also applied to the Book classes here button![image](https://user-images.githubusercontent.com/85559896/126047049-8427d393-2bd0-42f9-b58a-14145cd6c328.png)
+- *Fix* - Looking in the bootstrap documentation a solution was found.
+- *Verdict* - When the buttons are actioned they link to the contact form.
 
-The button for 'Members Login'![image](https://user-images.githubusercontent.com/85559896/126046640-5e58aaa4-b48d-4642-9520-de55c457ba8c.png)is for the feature that is to follow at a later date. As a temorary solution when the button is pressed the user is relocated to the website contact page.
-The original code used to achieve this raised an error in the W3C markup validator, looking in the bootstrap documentation a the solution was found, this was also applied to the Book classes here button![image](https://user-images.githubusercontent.com/85559896/126047049-8427d393-2bd0-42f9-b58a-14145cd6c328.png) by the close of play on the 15th July 2021.
+#### Contact Form
+- *Bug* - The backend for data submitted from the contact form will be addressed in later releases during testing it was noted that after one set of data was submitted the form   cleared but subsequent data would not be submitted or reset after the submit button had been pressed.
+- *Fix* - When reviewing the code and refereing back to the course and w3schools.com I had omitted the action attribute.
+- *Verdict* - The form now submits and clears ready to recieve the next inputs correctly.
 
-As discussed in Design Choices above whilst using coolors to find a better colour contrast the new choice of colours. After changing the colour in the logo to the current colour scheme I decided to revert the logo to original colour scheme because I felt it gave a bolder aesthetic style to the website.
+#### PDF Download
 
-Whilst using Chrome's Lighthouse there was a slight overflow issue, using the extension Unicorn Revealer showed all what was required to resolve the issue swiftly.
-
-During testing to make the contact form to standing out a bit more an off-white was decide upon and actioned.
-
-The contact form will not submit until the required fields have been populated but the feature to send to the gym will follow later so when submitted the user is returned to the top of the page. This will be decided upon during testing not to leave the user with a broken feature, also the contact form requires a reset function. This is available in JavaScript and will be implemented later in development of the project after 18th July 2021.
-
-The google map used in the contact us section does locate the gym's location correctly because I have used the map from the previous business's map and when launched in a new paged gives this not dissolved business details. This is not ideal and going forward a new google map unique to the gym will be generated from the google map application.
-
-The download function in the Schedule section of the gym's classes timetable worked correctly opening a pdf in new page when in the dev environment but when deployed 
-a 404 is displayed in the new page.
-
-![image](https://user-images.githubusercontent.com/85559896/126046441-656b736d-758f-428c-b525-b6e258c88a87.png)
-
-It was identified that a forward slash was the cause of the error and once removed the pdf correcting opened.
-
-![image](https://user-images.githubusercontent.com/85559896/126046446-b0af37d1-8405-4263-b0f9-2ad196934eab.png)
-
-
-
+- *Bug* -The download function in the Schedule section of the gym's classes timetable worked correctly opening a pdf in new page when in the dev environment but when deployed 
+  a 404 is displayed in the new page.
+- *Fix* - It was identified that a forward slash was the cause of the error and once removed the pdf correcting opened.
+ ![image](https://user-images.githubusercontent.com/85559896/126046441-656b736d-758f-428c-b525-b6e258c88a87.png)
+ ![image](https://user-images.githubusercontent.com/85559896/126046446-b0af37d1-8405-4263-b0f9-2ad196934eab.png)
+ - *Verdict* - The PDF download correctly opens in a new page.
 
 ## Deployment
 
@@ -221,14 +215,6 @@ To achieve this by the following process;
 3. To the right of this address is an icon once this clicked the location will be cloned.
 4. the clone can be found at this [https://github.com/Davej66/dfg.git](https://github.com/Davej66/dfg.git).
 
-
-Further reading and troubleshooting on cloning a repository from GitHub [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository)
-
-
-
-
-
-
 ## Credits
 
 I have used the following 4 websites to gather inspiration for content.
@@ -242,11 +228,9 @@ I have used the following 4 websites to gather inspiration for content.
 I used pxhere to obtain commercially free to use images for this site.
 The code for the "Jumbotron" was taken from the codeinsitute as was much of the remaining coding used in this project.
 
-
 ## Acknowledgements
 
-
-Thanking my mentor [Richard Wells](https://github.com/D0nni387/) for his invaluable guidance and support. His suggestions during the mid-review led to improvements to website and my accelerated my development and comprehension.
+Thanking my mentor [Richard Wells](https://github.com/D0nni387/) for his invaluable guidance and support. His suggestions during the mid-review led to improvements to website and accelerated my development and comprehension, further more at the final review.
 
 Support from the slack community when seeking assistance for that gentle nudge in the right direction.
 
