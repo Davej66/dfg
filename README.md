@@ -1,7 +1,4 @@
 # Dowlais Fitness Gym
-![image](https://user-images.githubusercontent.com/85559896/125904146-2d3fa7ef-b060-4d0c-b500-bdd6aad2f952.png)
-
-
 
 ![image](https://user-images.githubusercontent.com/85559896/125904016-89fec847-0159-4816-8681-4a443c29799a.png)
 
@@ -30,8 +27,8 @@ As a new business and all members will be new and likely to be from the local ar
   * As a user, I want to able to contact the gym.
   * As a user, I want to see images from the gym of classes and the facilities.
   * As a user, I want to find a website that is easy to navigate.
-  * As a user, I want the website to be intuitive as this will leave me with positive attude towards earning more.
-  * As a user, I want to feel that i will get a swift response from the contact form inquiry submission.
+  * As a user, I want the website to be intuitive as this will leave me with a positive attitude towards learning more.
+  * As a user, I want to feel that I will get a swift response from the contact form inquiry submission.
   * As a user, I want the social media links to open in a new browser.
   * As a user, I want the classes timetable pdf to open in a new browser.
   * As a user, I want to feel this is the gym I want to be a part of.
@@ -50,7 +47,7 @@ As a new business and all members will be new and likely to be from the local ar
   *  A navigation menu that is easy to use.
   *  Appealing visual elements.
   *  Access to contact gym.
-  *  information about classes and equipment.
+  *  Information about classes and equipment.
 
 ### Expectations
   * Links opening in a new browser, such as social media links and timetable pdf.
@@ -67,9 +64,9 @@ The use of icons has been kept the minimum and from the [Fontawesome](https://fo
 
 
 ### Colours
-The colour scheme used for the website was a green background with golden lettering. I chose these colours because i wanted the user to feel an air of quality and exclusivity, from previous subconscious experience. This colour scheme is similar to that used by Rolex and Wimbledon tennis tournament (this was underway during the design process). I hoped the clientele for the gym would be fimiliar with these and connect those entities of quality and would also be associated with the gym.
+The colour scheme used for the website was a green background with golden lettering. I chose these colours because i wanted the user to feel an air of quality and exclusivity, from previous subconscious experience. This colour scheme is like that used by Rolex and Wimbledon tennis tournament (this was underway during the design process). I hoped the clientele for the gym would be familiar with these and connect those entities of quality and would also be associated with the gym.
 
-The original colours were the background was #277676 and the text was #EC9209 but after runner a colour contrast test on the [Coolors](https://coolors.co/) website it scored badly and with a subtle change from green background a better scored was achieved without losing the "quality" look of the website.
+The original colours for the background was #277676 and the text was #EC9209 but after running a colour contrast test on the [Coolors](https://coolors.co/) website it scored badly and with a subtle change a better scored was achieved without losing the "quality" look of the website.
 
 ![Original palette (DFG)](https://user-images.githubusercontent.com/85559896/126037957-8f84df7a-8b9d-4f85-8568-888c61a50b5b.png)
 
@@ -78,7 +75,7 @@ The final colours now for the background are #0B2222 and the text #FAC16B but th
 ![Final palette(DFG)](https://user-images.githubusercontent.com/85559896/126037963-e66dd5c7-931f-488b-8fa9-a4e317cb9327.png)
 
 ### Structure
-For my website I chose to use [Bootstrap](https://getbootstrap.com/). Bootstrap is a library of HTML, CSS & Javascrpit, focused on mobile first. As this is the primary format for the website to be displayed it improves that this website will work well on mobile.
+For my website I chose to use [Bootstrap](https://getbootstrap.com/). Bootstrap is a library of HTML, CSS & JavaScript, focused on mobile first. As this is the primary format for the website to be displayed it improves that this website will work well on mobile.
 
 ## Wireframes
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Desktop &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Tablet &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Mobile  
@@ -88,6 +85,9 @@ For my website I chose to use [Bootstrap](https://getbootstrap.com/). Bootstrap 
 ### Existing Features
 #### Navigation
 ![image](https://user-images.githubusercontent.com/85559896/126043192-2d47a74f-17bd-456c-b2e0-82fad1a40c0d.png)
+
+Using Bootstrap and keeping its styling consistent ith the rest of the website the navbar. The navbar is responsive with a collapsible menu, accessed via a burger icon.
+The 'sticky' in position gives a professional and pleasing style for the website.
 
 #### About Us
 ![image](https://user-images.githubusercontent.com/85559896/126043198-0c955a75-2a78-4553-a3b5-4b61db686877.png)
@@ -102,11 +102,12 @@ A header and sub-header have been added to display some text, in this section bo
 #### Jumbotron
 ![image](https://user-images.githubusercontent.com/85559896/126043764-4ac9531a-0852-4ca6-b7b1-c8ab28e37f87.png)
 
+A single hero image is contained with scrolling.
 
 #### Classes
+![image](https://user-images.githubusercontent.com/85559896/126050145-7bd10763-c63a-4a29-98b9-f1e76bc64e73.png)
 
-
- A header is above three equal sized columns with three rows. In column 1 is the text describing classes held at the gym with a sub-header. In columns 2 and three are images reflective of the text beside them.
+ A header is above three equal sized columns with three rows. In column 1 is the text describing classes held at the gym with a sub-header. In columns 2 and three are images reflective of the text beside them a total of six images.
 
 #### Schedule
 ![image](https://user-images.githubusercontent.com/85559896/126045298-932d4c0f-60d3-4349-b6f4-02e9157bd485.png)
@@ -116,15 +117,18 @@ A header is above three columns and a single row. The first column (col-md-6) an
 #### Facilities
 ![image](https://user-images.githubusercontent.com/85559896/126045303-4c12bd60-e668-401d-b30a-9aa700c3ff60.png)
 
-A header is above two columns, in column one (col-md-8) and the column two Col-md-4). In column is the text detailing the gyms eqipment and facilities, with images supporting this text in column 2.
+A header is above two columns, in column one (col-md-8) and the column two Col-md-4). In column is the text detailing the gyms equipment and facilities, with images supporting this text in column 2.
 
 #### Contact Us
 ![image](https://user-images.githubusercontent.com/85559896/126045358-361d1f18-6840-4b74-a840-54d9dcd8e508.png)
 
-A header is above two columns and a single row. In column one is the address of the gym with a google map of its location below this. Below the map are the opening times of the gym. In column two the gym's telephone is again shown to allow the user an opportunity to note the number or to contact the gym using the contact forms provided.
+A header is above two columns and a single row. In column one is the address of the gym with a google map of its location below this. The google map used in the contact us section does locate the gym's location correctly because I have used the map from the previous business's map and when launched in a new paged gives this not dissolved business details. This is not ideal and in the update a new google map unique to the gym will be generated from the google map application. 
+
+Below the map are the opening times of the gym. In column two the gym's telephone is again shown to allow the user an opportunity to note the number and contact directly by telephone or to contact the gym using the contact forms provided.
 
 #### Footer
 ![image](https://user-images.githubusercontent.com/85559896/126045440-916fd12b-766d-454b-9658-837527ac8103.png)
+A single column with a central heading with social media icons below this, these open in a new page when selected.
 
 
 ### Features to be implemented
@@ -161,7 +165,7 @@ A header is above two columns and a single row. In column one is the address of 
 
 ## Testing
 ### Approach and Tools
-As I had deployed my website by my midpoint mweeting with my mentor [Richard Wells](https://github.com/D0nni387/) I was in a position to commence testing my website. I was using chrome's web DevTool on every change I made to the website to see the impact and if it met expectations.
+As I had deployed my website by my midpoint meeting with my mentor [Richard Wells](https://github.com/D0nni387/) I was in a position to commence testing my website. I was using chrome's web DevTool on every change I made to the website to see the impact and if it met expectations.
 
 Once I had the structure in place, I began testing across other devices screen sizes with chrome's DevTools. Further down the development timeline I also included testing on actual devices; A samsung s20 Ultra, samsung s8, iphone 12 and ipad 4 to complement chrome DevTool.
 
@@ -170,53 +174,50 @@ I also was able to ask family to review the website on their devices for their o
 ### Validator Testing
 I also used the following to fine tune the process;
  * W3C Markup validator tool for HTML.
+  - No issues were found with this [W3C HTML Validation](https://validator.w3.org/).
  * W3C CSS validator tool for CSS
+  - No issues were found with this [W3C CSS Validation](https://jigsaw.w3.org/css-validator/#validate_by_input).
  * Lighthouse (chrome developer tools) for security and load times.
+  - No issues were found with this [Chrome Dev Tools (incl Lighthouse)](https://developer.chrome.com/docs/devtools/).
 
 ### Bugs and Solutions
+#### Buttons
+- *Bug* - The button for 'Members Login'![image](https://user-images.githubusercontent.com/85559896/126046640-5e58aaa4-b48d-4642-9520-de55c457ba8c.png)is for the feature that is to follow at a later date. As a temorary solution when the button is pressed the user is relocated to the website contact page.
+The original code used to achieve this raised an error in the W3C markup validator. This also applied to the Book classes here button![image](https://user-images.githubusercontent.com/85559896/126047049-8427d393-2bd0-42f9-b58a-14145cd6c328.png)
+- *Fix* - Looking in the bootstrap documentation a solution was found.
+- *Verdict* - When the buttons are actioned, they link to the contact form.
 
-Button for member's Login, this feature is to follow at a later date. AS a temorary solution when the button is pressed the user is relocated to the website contact page.
-Unfortunately this solution as it is correctly coded raises an error in the W3C markup validator. I will look into the adding a link to the button advising the feature is currently unvailable. This will resolve the issue with he W3C markup validator report. This also applies to the book classes button feature. This solution will be added to the website by the close of play on the 15th July 2021.
+#### Contact Form
+- *Bug* - The backend for data submitted from the contact form will be addressed in later releases during testing it was noted that after one set of data was submitted the form   cleared but subsequent data would not be submitted or reset after the submit button had been pressed.
+- *Fix* - When reviewing the code and referring to the course and w3schools.com I had omitted the action attribute.
+- *Verdict* - The form now submits and clears ready to receive the next inputs correctly.
 
-As discussed in ## Design Choices above whilst using coolors to find a better colour contrast the new choice of coloyrs but after changing the colour in the logo but reverted to the previous scheme because I felt it gave a bodlder aesthetic style to the website.
+#### PDF Download
 
-Whilst using Chrome's Lighthouse there was a slight overflow issue using the extension Unicorn Revealer showed all what was required to resolve the issue swiftly.
-
-The download in the Schedule section works correctly opening a pdf in new page with the local environment but the 
-
-During testing to make the contact form to standing out a bit more an off-white was decide upon and actioned.
-
-The contact form will not submit untill the required fields have been populated but the feature to send to the gym will follow later so when submitted the user is returned to the top of the page. This will decided upon during testing not to leave the user with a broken feature, also the contact form requires a reset function. This is available in javascript and will be implemented later in development of the project after 18th July 2021.
-
-The google map used in the contact us section does locate the gym's location correctly because I have used the map from the previous business's map and when launhed in a new paged gives this not dissolved business details. This is not ideal and going forward a new google map unique to the gym will be generated from the google map application.
-
-
+- *Bug* -The download function in the Schedule section of the gym's classes timetable worked correctly opening a pdf in new page when in the dev environment but when deployed 
+  a 404 is displayed in the new page.
+- *Fix* - It was identified that a forward slash was the cause of the error and once removed the pdf correcting opened.
+ ![image](https://user-images.githubusercontent.com/85559896/126046441-656b736d-758f-428c-b525-b6e258c88a87.png)
+ ![image](https://user-images.githubusercontent.com/85559896/126046446-b0af37d1-8405-4263-b0f9-2ad196934eab.png)
+ - *Verdict* - The PDF download correctly opens in a new page.
 
 ## Deployment
 
-The project after the completed code has been commited and pushed to GitHub can be deployed and [found here.](https://davej66.github.io/dfg/). This is achieved by navigating to the page holding the project repository and executing the following steps:
+The project after the completed code has been committed and pushed to GitHub can be deployed and [found here.](https://davej66.github.io/dfg/). This is achieved by navigating to the page holding the project repository and executing the following steps:
 
 1. From the menu select **Settings**.
 2. Scrolling down the vertical menu (topped by Options) select **Pages** which leads to the **Source section**.
 3. Under Source click the drop-down menu labelled None and select Main Branch.
 4. You are then required to choose a folder, either Docs or root. You should select root.
-5. You can now save these selections and the link to the deployed website will be dosplayed.
+5. You can now save these selections and the link to the deployed website will be displayed.
 6. The website is live https://davej66.github.io/dfg/ .
 
 ### To run the project locally:
-This achieve by the following process;
+To achieve this by the following process;
 1. Under the repository name and the menu that contains Gitpod click Code.
 2. Select HTTPS the location will already be present.
 3. To the right of this address is an icon once this clicked the location will be cloned.
 4. the clone can be found at this [https://github.com/Davej66/dfg.git](https://github.com/Davej66/dfg.git).
-
-
-Further reading and troubleshooting on cloning a repository from GitHub [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository)
-
-
-
-
-
 
 ## Credits
 
@@ -231,11 +232,9 @@ I have used the following 4 websites to gather inspiration for content.
 I used pxhere to obtain commercially free to use images for this site.
 The code for the "Jumbotron" was taken from the codeinsitute as was much of the remaining coding used in this project.
 
-
 ## Acknowledgements
 
-
-Thanking my mentor [Richard Wells](https://github.com/D0nni387/) for his invaluable guidance and support. His suggestions during the mid-review led to improvements to website and my accelerated my development and comprehension..
+Thanking my mentor [Richard Wells](https://github.com/D0nni387/) for his invaluable guidance and support. His suggestions during the mid-review led to improvements to website and accelerated my development and comprehension, furthermore at the final review.
 
 Support from the slack community when seeking assistance for that gentle nudge in the right direction.
 
