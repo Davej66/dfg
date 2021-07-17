@@ -86,6 +86,12 @@ For my website I chose to use [Bootstrap](https://getbootstrap.com/). Bootstrap 
 #### Navigation
 ![image](https://user-images.githubusercontent.com/85559896/126043192-2d47a74f-17bd-456c-b2e0-82fad1a40c0d.png)
 
+
+
+Using Bootstrap and keeping its styling consistent ith the rest of the website the navbar. The navbar is responsive with a collapsible menu, accessed via a burger icon.
+The 'sticky' in position gives a professional and pleasing style for the website.
+
+
 #### About Us
 ![image](https://user-images.githubusercontent.com/85559896/126043198-0c955a75-2a78-4553-a3b5-4b61db686877.png)
 
