@@ -97,7 +97,7 @@ The 'sticky' in position gives a professional and pleasing style for the website
 #### Gallery
 ![image](https://user-images.githubusercontent.com/85559896/126043617-164b2a80-d187-49a5-9ea5-b442a62a8970.png)
 
-A header and sub-header have been added to display some text, in this section bootstrap generates two each sized columns with two rows with a total of 4 images displayed within these. When in *xs* and *small* dispaly two images are hidden to improve the user experience.
+A header and sub-header have been added to display some text, in this section bootstrap generates two each sized columns with two rows with a total of 4 images displayed within these. When in *xs* and *small* display two images are hidden to improve the user experience.
 
 #### Jumbotron
 ![image](https://user-images.githubusercontent.com/85559896/126043764-4ac9531a-0852-4ca6-b7b1-c8ab28e37f87.png)
@@ -107,7 +107,7 @@ A single hero image is contained with scrolling.
 #### Classes
 ![image](https://user-images.githubusercontent.com/85559896/126050145-7bd10763-c63a-4a29-98b9-f1e76bc64e73.png)
 
- A header is above three equal sized columns with three rows. In column 1 is the text describing classes held at the gym with a sub-header. In columns 2 and three are images reflective of the text beside them a total of six images. When in *xs* and *small* dispaly three images are hidden to improve the user experience.
+ A header is above three equal sized columns with three rows. In column 1 is the text describing classes held at the gym with a sub-header. In columns 2 and three are images reflective of the text beside them a total of six images. When in *xs* and *small* display three images are hidden to improve the user experience.
  
 #### Schedule
 ![image](https://user-images.githubusercontent.com/85559896/126045298-932d4c0f-60d3-4349-b6f4-02e9157bd485.png)
